@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".City_rat_village_rat">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="A City Rat And A Village Rat"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/animal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Once there were two rats who were good friends.One of them
+lived in a city and other lived in a village.Both of them Exchanged news of their well being through other rats who travelled between the two places.
+
+"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/animal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Once the city rat wished to meet his village friend He sent message through some rats of village.The village friend was very
+excited about his friends visit .He made preparation to welcome him.To receive his friend,he went to border of the village wearing a traditional dress like dhoti,kurta and cap,with garlands in his hands.
+However,his city friend was wearing a suit,boot and neck tie.They hugged each other and exchanged greetings.
+"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          The Village rat welcomed him and said 'We have fresh and unpolluted Air here.The Atmosphere in the city is impure.'
+
+"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          They gossiped a lot and exchanged their views on different topics.Then,they sat down to eat.The Village rat served him fruits and boiled wheat grains.
+
+"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          After having food,they went for a stroll outside the village.The fields looked green and natural beauty of the jungle had its own attraction.The village rat said,'Does the city have such beautiful scenes?'The city rat said nothing but invited the village rat to come to the city at least once to see the comfortable life of the city.
+
+"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          The village rat said he would certainly come to the city one day.The city rat said 'Why don't you accompany me now?'The village rat replied ,'All right ,i will consider your proposal'
+
+"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          When the night fell,they came back and slept on the soft grass.Next day,for breakfast the village rat served to his friend fresh fruits and cereals.the city rat was iritated and said to the village rat ,'Let us go the city right now.Give me a chanace to serve you.'
+
+"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          The village rat accepted the proposal and got ready for the journey to the city.The city rat lived in a big house.At night the village rat was surprised to see, the dinning table full of different types of dishes.The village rat has not seen such a variety of food before.The city rat asked village rat to enjoy the meal.Then he started eating.
+The village rat had a liking for the paneer and finished the piece quickly.
+
+At this moment,they heared the voice of a cat.The city rat said,'Quickly hide yourself below the almirah,otherwise the cat will eat us.Both rushed to the almirah and hide themselves under it.
+After some time when the cat went away,both came out.The village rat was still trembling.The city rat again started  eating the dishes and advised his friend too.
+
+
+'Do not be afraid .it is a part of the city life.'The village rat gathered courage and went to the dining table again.This time he quickly finished the cake of his choice.At this juncture,a boy came there with a dog.The village rat being afraid of the dog asked his friend,'Who is this fellow?'The city rat said,'He is jimmi,the son of master of this house and the dog is his pet.Be quick and hide youreslf there.'After their depature
+both the rats came out.The village rat was very afraid.He said,Friend,i think i should go back now .i am thankful to you for the tasty dishes but there are so many dangers.Thanks again.'And he started for the village.on reaching ,he heaved a sign of relief and said ,'oh!'Life is precious and above all wisdom.'
+
+"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
