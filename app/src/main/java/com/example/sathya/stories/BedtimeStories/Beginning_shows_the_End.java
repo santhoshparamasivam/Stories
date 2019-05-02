@@ -1,4 +1,4 @@
-package com.example.sathya.stories;
+package com.example.sathya.stories.BedtimeStories;
 
 
 import android.os.Bundle;
@@ -7,14 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.sathya.stories.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Wind_and_Sun extends Fragment {
+public class Beginning_shows_the_End extends Fragment {
 
 
-    public Wind_and_Sun() {
+    public Beginning_shows_the_End() {
         // Required empty public constructor
     }
 
@@ -23,7 +25,7 @@ public class Wind_and_Sun extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_wind_and__sun, container, false);
+        return inflater.inflate(R.layout.fragment_beginning_shows_the__end, container, false);
     }
 
 }

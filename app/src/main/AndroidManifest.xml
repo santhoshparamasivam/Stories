@@ -17,6 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3643602219143275~6670393241"/>
+        <!--Bannerid   ca-app-pub-3643602219143275/8338698132-->
+
+
+        <!--app id -->
         <activity
             android:name=".Mainpage"
             android:label="@string/title_activity_mainpage"

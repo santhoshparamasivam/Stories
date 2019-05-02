@@ -1,4 +1,4 @@
-package com.example.sathya.stories;
+package com.example.sathya.stories.Utilities;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.sathya.stories.R;
 
 public class CustomGridViewAdapter extends BaseAdapter{
  private Context mContext;

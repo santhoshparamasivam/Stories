@@ -9,7 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.Toast;
+
+import com.example.sathya.stories.Utilities.CustomGridViewAdapter;
+import com.example.sathya.stories.Utilities.Item;
 
 import java.util.ArrayList;
 

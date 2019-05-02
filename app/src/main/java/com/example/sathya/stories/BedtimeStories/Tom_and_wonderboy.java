@@ -1,4 +1,4 @@
-package com.example.sathya.stories;
+package com.example.sathya.stories.BedtimeStories;
 
 
 import android.os.Bundle;
@@ -7,14 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.sathya.stories.R;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Encounter_with_Ghost extends Fragment {
+public class Tom_and_wonderboy extends Fragment {
 
 
-    public Encounter_with_Ghost() {
+    public Tom_and_wonderboy() {
         // Required empty public constructor
     }
 
@@ -23,7 +24,7 @@ public class Encounter_with_Ghost extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_encounter_with__ghost, container, false);
+        return inflater.inflate(R.layout.fragment_tom_and_wonderboy, container, false);
     }
 
 }

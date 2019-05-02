@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
                 android:textColor="#000"
-                android:text="BEGINNING SHOWS THE END"/>
+                android:text="TOM, THE WONDER BOY"/>
 
 
         </LinearLayout>
@@ -47,13 +47,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="    Blind people have a sense of touch that helps them see what they can't see with their eyes. Once there was a blind man who had a super-sense of touch."
+                android:text="       Tom was a very intelligent boy. One day, his father took to the house of a rich and powerful friend of his. Tom's father told his friend"
                 android:textSize="16dp" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="   By and by the fame of his extra-keen sense of touch spread far and wide and one day reached the king's court as well. The king didn't believe it. He said that he would test it personally."
-                android:textSize="16dp" />
+
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
@@ -66,32 +62,39 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="     So, the blind man was summoned to the court for the test. He was given a seat and on the king's bidding, a wolf-cub was placed on his lap. The blind man caressed every part of the cub's body to know it's reality."
+                android:text="    He's a prodigy. I've never come across a boy more intelligent than him. He has answer for everything. "
                 android:textSize="16dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="    The king asked, What is this baby-animal?
-            Blind man replied, Your Honour! It may be a wolf-cub or a fox-cub. But certainly, I can say that it won't be safe to trust it in a sheep-fold."
+                android:text="   The friend was a snob and considered himself to be the most intelligent person in the whole country. Glancing at Tom, he said,"
                 android:textSize="16dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="   The king was highly pleased at the blind man's reply and rewarded him handsomely. "
+                android:text="    He doesnot seem to be intelligent. In any case, the more intelligent a boy is the duffer he becomes as a man.
+"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" At this, Tom innocently said, If this is true then, as a boy you must have been even more intelligent than I am.
+"
                 android:textSize="16dp" />
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:gravity="center"
                 android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:textSize="16dp" />
 
 

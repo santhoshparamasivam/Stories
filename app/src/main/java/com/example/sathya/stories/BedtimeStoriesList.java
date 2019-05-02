@@ -12,12 +12,24 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.sathya.stories.BedtimeStories.Beginning_shows_the_End;
+import com.example.sathya.stories.BedtimeStories.City_rat_village_rat;
+import com.example.sathya.stories.BedtimeStories.Dog_in_a_manager;
+import com.example.sathya.stories.BedtimeStories.Encounter_with_Ghost;
+import com.example.sathya.stories.BedtimeStories.Everyone_care_for_his_end;
+import com.example.sathya.stories.BedtimeStories.Never_challege_nature;
+import com.example.sathya.stories.BedtimeStories.Once_bitten_twice_shy;
+import com.example.sathya.stories.BedtimeStories.The_Mistaken_Complaint;
+import com.example.sathya.stories.BedtimeStories.Tom_and_wonderboy;
+import com.example.sathya.stories.BedtimeStories.Wind_and_Sun;
+import com.google.android.gms.ads.InterstitialAd;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class BedtimeStoriesList extends Fragment {
-
+    private InterstitialAd mInterstitialAd;
 
   ListView lv1;
     String[] listItem={"A CITY RAT AND A VILLAGE RAT",
@@ -28,8 +40,8 @@ public class BedtimeStoriesList extends Fragment {
             "DOG IN A MANAGER",
             "EVERYONE CARES FOR HIS ENDS",
             "BEGINNING SHOWS THE END",
-            "BEAUTY AND THE BEASTS",
-            "THE SNOW QUEEN"};
+            "THE MISTAKEN COMPLAINT",
+            "TOM, THE WONDER BOY"};
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -39,7 +51,8 @@ public class BedtimeStoriesList extends Fragment {
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, listItem);
         lv1.setAdapter(adapter);
-
+        mInterstitialAd = new InterstitialAd(getActivity());
+        mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         lv1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
@@ -97,6 +110,20 @@ public class BedtimeStoriesList extends Fragment {
 
                 }if(position==7){
                     Beginning_shows_the_End homefragment=new Beginning_shows_the_End();
+                    final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+                    transaction.replace(R.id.frame,homefragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+
+                }if(position==8){
+                    The_Mistaken_Complaint homefragment=new The_Mistaken_Complaint();
+                    final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+                    transaction.replace(R.id.frame,homefragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+
+                }if(position==9){
+                    Tom_and_wonderboy homefragment=new Tom_and_wonderboy();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);

@@ -1,4 +1,4 @@
-package com.example.sathya.stories;
+package com.example.sathya.stories.Utilities;
 
 
 import android.graphics.Bitmap;
