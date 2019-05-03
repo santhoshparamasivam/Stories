@@ -8,6 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.sathya.stories.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 
 
 /**
@@ -15,17 +18,25 @@ import com.example.sathya.stories.R;
  */
 public class Everyone_care_for_his_end extends Fragment {
 
-
-    public Everyone_care_for_his_end() {
-        // Required empty public constructor
-    }
+    private InterstitialAd mInterstitialAd;
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_everyone_care_for_his_end, container, false);
+        View v = inflater.inflate(R.layout.fragment_everyone_care_for_his_end, container, false);
+        mInterstitialAd = new InterstitialAd(getActivity());
+        mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
+        AdRequest adRequestInter = new AdRequest.Builder().build();
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                mInterstitialAd.show();
+            }
+        });
+        return v;
     }
-
 }
+
+

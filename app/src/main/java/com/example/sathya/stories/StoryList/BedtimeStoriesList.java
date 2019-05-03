@@ -1,4 +1,4 @@
-package com.example.sathya.stories;
+package com.example.sathya.stories.StoryList;
 
 
 import android.os.Bundle;
@@ -22,6 +22,9 @@ import com.example.sathya.stories.BedtimeStories.Once_bitten_twice_shy;
 import com.example.sathya.stories.BedtimeStories.The_Mistaken_Complaint;
 import com.example.sathya.stories.BedtimeStories.Tom_and_wonderboy;
 import com.example.sathya.stories.BedtimeStories.Wind_and_Sun;
+import com.example.sathya.stories.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 
 
@@ -29,7 +32,7 @@ import com.google.android.gms.ads.InterstitialAd;
  * A simple {@link Fragment} subclass.
  */
 public class BedtimeStoriesList extends Fragment {
-    private InterstitialAd mInterstitialAd;
+  InterstitialAd mInterstitialAd;
 
   ListView lv1;
     String[] listItem={"A CITY RAT AND A VILLAGE RAT",
@@ -53,12 +56,20 @@ public class BedtimeStoriesList extends Fragment {
         lv1.setAdapter(adapter);
         mInterstitialAd = new InterstitialAd(getActivity());
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
+        AdRequest adRequestInter = new AdRequest.Builder().build();
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                mInterstitialAd.show();
+            }
+        });
+        mInterstitialAd.loadAd(adRequestInter);
         lv1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 // TODO Auto-generated method stub
                 String value=adapter.getItem(position);
-                Toast.makeText(getActivity(),value,Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(),value,Toast.LENGTH_SHORT).show();
                 if(position==0){
                    City_rat_village_rat homefragment=new City_rat_village_rat();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();

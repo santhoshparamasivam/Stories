@@ -23,7 +23,7 @@ import com.google.android.gms.ads.MobileAds;
 
 public class Mainpage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    private AdView mAdView;
+     AdView mAdView;
     private InterstitialAd mInterstitialAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +35,14 @@ public class Mainpage extends AppCompatActivity
 
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
+        AdRequest adRequestInter = new AdRequest.Builder().build();
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                mInterstitialAd.show();
+            }
+        });
+        mInterstitialAd.loadAd(adRequestInter);
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);

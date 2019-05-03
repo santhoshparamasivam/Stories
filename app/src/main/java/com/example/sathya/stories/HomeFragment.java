@@ -10,6 +10,10 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.example.sathya.stories.StoryList.BedtimeStoriesList;
+import com.example.sathya.stories.StoryList.ComicalStoriesList;
+import com.example.sathya.stories.StoryList.GeneralStoryList;
+import com.example.sathya.stories.StoryList.MoralStoryList;
 import com.example.sathya.stories.Utilities.CustomGridViewAdapter;
 import com.example.sathya.stories.Utilities.Item;
 
@@ -26,7 +30,7 @@ public class HomeFragment extends Fragment {
             "Bedtime Stories",
             "Moral Stories",
             "General Stories",
-            "Classic Stories",
+            "Comical Stories",
             "Fairytales Stories",
             "Animal Stories",
             "Comedy Stories",
@@ -81,6 +85,28 @@ public class HomeFragment extends Fragment {
         BedtimeStoriesList homefragment=new BedtimeStoriesList();
         final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }    if(position==1){
+        MoralStoryList homefragment=new MoralStoryList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }  if(position==2){
+        GeneralStoryList homefragment=new GeneralStoryList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }if(position==3){
+        ComicalStoriesList homefragment=new ComicalStoriesList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
         transaction.commit();
 
     }
