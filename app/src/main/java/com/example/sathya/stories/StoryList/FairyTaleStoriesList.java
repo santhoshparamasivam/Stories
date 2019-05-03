@@ -21,6 +21,16 @@ import com.example.sathya.stories.BedtimeStories.Once_bitten_twice_shy;
 import com.example.sathya.stories.BedtimeStories.The_Mistaken_Complaint;
 import com.example.sathya.stories.BedtimeStories.Tom_and_wonderboy;
 import com.example.sathya.stories.BedtimeStories.Wind_and_Sun;
+import com.example.sathya.stories.FairyTaleStories.Beauty_Beast;
+import com.example.sathya.stories.FairyTaleStories.Cindrella_Story;
+import com.example.sathya.stories.FairyTaleStories.Frog_Prince;
+import com.example.sathya.stories.FairyTaleStories.Goldilocks_and_Three_Bears;
+import com.example.sathya.stories.FairyTaleStories.Hansel_Gretel;
+import com.example.sathya.stories.FairyTaleStories.Little_Mermaid;
+import com.example.sathya.stories.FairyTaleStories.Rapunzel;
+import com.example.sathya.stories.FairyTaleStories.Sleeping_Beauty;
+import com.example.sathya.stories.FairyTaleStories.Snow_White;
+import com.example.sathya.stories.FairyTaleStories.Ugly_Duck;
 import com.example.sathya.stories.R;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -49,6 +59,7 @@ public class FairyTaleStoriesList extends Fragment {
             "THE UGLY DUCKLING",
             "THE FROG PRINCE"};
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -56,6 +67,7 @@ public class FairyTaleStoriesList extends Fragment {
 //        return inflater.inflate(R.layout.fragment_fairy_tale_stories_list, container, false);
         View v= inflater.inflate(R.layout.fragment_fairy_tale_stories_list, container, false);
         lv1=(ListView)v.findViewById(R.id.lv1);
+        getActivity().setTitle("Fairytale Stories");
         mInterstitialAd = new InterstitialAd(getContext());
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
@@ -76,70 +88,70 @@ public class FairyTaleStoriesList extends Fragment {
                 String value=adapter.getItem(position);
 //                Toast.makeText(getActivity(),value,Toast.LENGTH_SHORT).show();
                 if(position==0){
-                    City_rat_village_rat homefragment=new City_rat_village_rat();
+                    Cindrella_Story homefragment=new Cindrella_Story();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
 
                 }   if(position==1){
-                    Never_challege_nature homefragment=new Never_challege_nature();
+                    Beauty_Beast homefragment=new Beauty_Beast();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
 
                 }   if(position==2){
-                    Encounter_with_Ghost homefragment=new Encounter_with_Ghost();
+                    Sleeping_Beauty homefragment=new Sleeping_Beauty();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
 
                 }   if(position==3){
-                    Once_bitten_twice_shy homefragment=new Once_bitten_twice_shy();
+                    Rapunzel homefragment=new Rapunzel();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
 
                 }   if(position==4){
-                    Wind_and_Sun homefragment=new Wind_and_Sun();
+                    Snow_White homefragment=new Snow_White();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
 
                 }if(position==5){
-                    Dog_in_a_manager homefragment=new Dog_in_a_manager();
+                    Little_Mermaid homefragment=new Little_Mermaid();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
 
                 }if(position==6){
-                    Everyone_care_for_his_end homefragment=new Everyone_care_for_his_end();
+                    Goldilocks_and_Three_Bears homefragment=new Goldilocks_and_Three_Bears();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
 
                 }if(position==7){
-                    Beginning_shows_the_End homefragment=new Beginning_shows_the_End();
+                    Hansel_Gretel homefragment=new Hansel_Gretel();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
 
                 }if(position==8){
-                    The_Mistaken_Complaint homefragment=new The_Mistaken_Complaint();
+                    Ugly_Duck homefragment=new Ugly_Duck();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
 
                 }if(position==9){
-                    Tom_and_wonderboy homefragment=new Tom_and_wonderboy();
+                    Frog_Prince homefragment=new Frog_Prince();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);

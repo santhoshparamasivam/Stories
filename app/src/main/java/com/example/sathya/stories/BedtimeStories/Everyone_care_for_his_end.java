@@ -27,6 +27,7 @@ public class Everyone_care_for_his_end extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_everyone_care_for_his_end, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle("EVERYONE CARES FOR HIS ENDS");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

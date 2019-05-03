@@ -58,6 +58,17 @@ public class GeneralStoryList extends Fragment {
             "A WITTY REPLY"
             ,"THE ABODE OF GOD"};
 
+
+
+
+
+
+
+
+
+
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -65,6 +76,7 @@ public class GeneralStoryList extends Fragment {
 //        return inflater.inflate(R.layout.fragment_general_story_list, container, false);
         View v= inflater.inflate(R.layout.fragment_general_story_list, container, false);
         lv1=(ListView)v.findViewById(R.id.lv1);
+        getActivity().setTitle("General Stories");
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, listItem);
         lv1.setAdapter(adapter);

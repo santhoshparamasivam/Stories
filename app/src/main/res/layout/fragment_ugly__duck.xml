@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="THE UGLY DUCKLING"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/duck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          This heart-warming tale penned by Hans Christian Anderson tells of a little duckling that was called ugly by everyone at the farm in which he lived. He was bullied and mistreated by everyone until one day he was forced to run away. The miserable little duckling was mocked and scorned by everyone who met him and found himself wandering through the frozen winter, alone and barely managing to survive. When he flew to a lake to swim, he met three beautiful swans who greeted him cheerfully."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          He was confused by their friendly greeting, for all this time he had been chased away. When he looked down at his reflection in the water, he was surprised to see that he had grown into a beautiful swan! A little girl who was throwing breadcrumbs for the noble swans even said that he was the most beautiful of all."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          We should never judge others by their appearances because it is not appearances that matter, not only can one develop beauty over time, but true beauty is that which lies within, so if we endure and keep moving forward in life, as the little duckling did, then we may one day find ourselves to be considered the most beautiful of all."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="  The perseverance and quick thinking of these children are noteworthy, though the tale may not be one for the sensitive."-->
+                <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="  One day as a prince was passing by, he noticed the dwarfs mourning over a beautiful sleeping girl (for she remained as beautiful as she ever was) and was mesmerized by her beauty. He kissed her hand to bid her farewell, and at that moment, the apple dislodged itself, and Snow White opened her eyes. The prince was so happy that he asked for her hand in marriage and she accepted. There was a grand celebration, and they lived and reigned happily together. The evil queen became sick from her envy and eventually died."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="  We must always remember, from the fate of the queen, that if you lust after physical beauty, you will indeed lose your peace and be quite unhappy when you are not considered the most beautiful, on the contrary, kindness and gentleness win the hearts of many"-->
+            <!--android:textSize="16dp" />-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

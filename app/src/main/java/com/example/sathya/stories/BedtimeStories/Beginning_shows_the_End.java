@@ -26,7 +26,9 @@ public class Beginning_shows_the_End extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_beginning_shows_the__end, container, false);
+
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle("BEGINNING SHOWS THE END");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

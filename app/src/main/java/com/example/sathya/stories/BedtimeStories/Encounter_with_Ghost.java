@@ -27,6 +27,7 @@ public class Encounter_with_Ghost extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_encounter_with__ghost, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle("ENCOUNTER WITH A GHOST");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

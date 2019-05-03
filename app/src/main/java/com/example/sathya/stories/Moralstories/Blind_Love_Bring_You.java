@@ -27,6 +27,7 @@ public class Blind_Love_Bring_You extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_blind__love__bring__you, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle("BLIND LOVE BRINGS IN ILL LUCK");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

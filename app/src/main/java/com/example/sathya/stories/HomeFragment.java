@@ -12,6 +12,7 @@ import android.widget.GridView;
 
 import com.example.sathya.stories.StoryList.BedtimeStoriesList;
 import com.example.sathya.stories.StoryList.ComicalStoriesList;
+import com.example.sathya.stories.StoryList.FairyTaleStoriesList;
 import com.example.sathya.stories.StoryList.GeneralStoryList;
 import com.example.sathya.stories.StoryList.MoralStoryList;
 import com.example.sathya.stories.Utilities.CustomGridViewAdapter;
@@ -73,14 +74,13 @@ public class HomeFragment extends Fragment {
         View v= inflater.inflate(R.layout.fragment_home, container, false);
         simpleList = (GridView)v.findViewById(R.id.grid);
         CustomGridViewAdapter adapter = new  CustomGridViewAdapter(getActivity(), web, imageId);
-
         simpleList.setAdapter(adapter);
+        getActivity().setTitle("Home");
         simpleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-//                Toast.makeText(getActivity(), "You Clicked at " +web[+ position], Toast.LENGTH_SHORT).show();
     if(position==0){
         BedtimeStoriesList homefragment=new BedtimeStoriesList();
         final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
@@ -104,6 +104,13 @@ public class HomeFragment extends Fragment {
 
     }if(position==3){
         ComicalStoriesList homefragment=new ComicalStoriesList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }if(position==4){
+        FairyTaleStoriesList homefragment=new FairyTaleStoriesList();
         final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.frame,homefragment);
         transaction.addToBackStack(null);

@@ -27,6 +27,7 @@ public class Love_Test extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_love__test, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle( "THE LOVE TEST");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="THE GOLDILOCKS AND THREE BEARS"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/threebears" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  This one is sure to teach your children to be mindful and respectful of others as it tells of a curious little girl called Goldilocks, who trespassed on the property of a family of three bears, who had gone out into the woods while their porridge cooled. She had been lost in the woods when she stumbled upon the cottage and noticed through the window that there were three bowls of porridge on the table and that there was nobody home."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  If she had been more respectful, she would have waited for the bears to come home, but instead, she let her curiosity get the better of her, and she let herself into the house. In fact, not only does Goldilocks trespass, but she also eats baby bear’s porridge, broke his chair and slept in his bed. When they found her, she started awake and was so frightened by them that she jumped out the window and ran away."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  Had Goldilocks been more respectful, the bears would have treated her with kindness, and she would have made new friends, but instead, she made enemies by being so rude."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="  Snow White, in the meantime, found a place with seven dwarfs whom she lived with and cared for. One day when they were at work in the mines, the queen went to see Snow White, disguised as an old peasant woman selling apples. Snow White was convinced to take a bite out of the apple and instantly fell down, as if dead. When the dwarfs found her, they were distraught and laid her in a glass coffin"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="  One day as a prince was passing by, he noticed the dwarfs mourning over a beautiful sleeping girl (for she remained as beautiful as she ever was) and was mesmerized by her beauty. He kissed her hand to bid her farewell, and at that moment, the apple dislodged itself, and Snow White opened her eyes. The prince was so happy that he asked for her hand in marriage and she accepted. There was a grand celebration, and they lived and reigned happily together. The evil queen became sick from her envy and eventually died."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="  We must always remember, from the fate of the queen, that if you lust after physical beauty, you will indeed lose your peace and be quite unhappy when you are not considered the most beautiful, on the contrary, kindness and gentleness win the hearts of many"-->
+            <!--android:textSize="16dp" />-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

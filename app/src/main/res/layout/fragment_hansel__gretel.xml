@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="HANSEL AND GRETEL"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/hansel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   There once lived a poor farmer, his wife and two children. They were so poor that they often had to each survive on one slice of bread and butter for an entire day. His wife was a woman with a hard heart, and she convinced him that the only way they could survive was to abandon the children in the woods"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  The first time they tried, it ended in failure as the children followed a trail of pebbles back home, which Hansel had collected after they overheard their parents. The second time, however, the door was locked, and Hansel was unable to collect any pebbles. Instead, he tried leaving a trail of breadcrumbs, but this was a failure as the birds ate everything he dropped."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  They happened to stumble upon a gingerbread cottage, which they promptly began to eat as they were starving. This turned out to be the cottage of a witch who built the house to lure them into her home so she could eat them. Whilst Hansel was being fattened to be a meal, Gretel ran about like a servant to the witch. Eventually, Gretel managed to shove the wretched old hag into her own oven and saved both herself and her brother."
+                android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="  The perseverance and quick thinking of these children are noteworthy, though the tale may not be one for the sensitive."
+            android:textSize="16dp" />
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="  One day as a prince was passing by, he noticed the dwarfs mourning over a beautiful sleeping girl (for she remained as beautiful as she ever was) and was mesmerized by her beauty. He kissed her hand to bid her farewell, and at that moment, the apple dislodged itself, and Snow White opened her eyes. The prince was so happy that he asked for her hand in marriage and she accepted. There was a grand celebration, and they lived and reigned happily together. The evil queen became sick from her envy and eventually died."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="  We must always remember, from the fate of the queen, that if you lust after physical beauty, you will indeed lose your peace and be quite unhappy when you are not considered the most beautiful, on the contrary, kindness and gentleness win the hearts of many"-->
+            <!--android:textSize="16dp" />-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

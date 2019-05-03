@@ -27,6 +27,7 @@ public class Witty_Reply extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_witty__reply, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle("A WITTY REPLY");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

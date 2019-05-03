@@ -45,15 +45,18 @@ public class BedtimeStoriesList extends Fragment {
             "BEGINNING SHOWS THE END",
             "THE MISTAKEN COMPLAINT",
             "TOM, THE WONDER BOY"};
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_bedtime_stories_list, container, false);
         lv1=(ListView)v.findViewById(R.id.lv1);
+        getActivity().setTitle("Bedtime Stories");
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, listItem);
         lv1.setAdapter(adapter);
+
         mInterstitialAd = new InterstitialAd(getActivity());
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();

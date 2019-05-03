@@ -26,6 +26,7 @@ public class Two_Targets_in_one_Shot extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_two__targets_in_one__shot, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle("TWO TARGETS IN ONE SHOT");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

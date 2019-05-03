@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="THE LITTLE MERMAID"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/snow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   In the underwater kingdom of Atlantica, the home of the mer-people, lived a little mermaid who loved nothing more than to look at things on the surface and observe how the humans lived. She longed to be human, and when she ended up rescuing a handsome prince from drowning, she decided that she must become human at any cost as she wanted to be with him. This led her to visit a sea witch and exchanged her voice for a pair of human legs. When she presented herself before the prince, he did not recognise her as the girl who saved him. In the Disney version, despite all odds, the little mermaid and her prince defeat the sea witch and are able to get married and live happily ever after."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" But in the original story by Hans Christian Anderson, the little mermaid does not have singing crabs or flounders in it. The story is quite a tragic one where the little mermaid is not recognized by the prince, who then marries another princess, and the little mermaid loses her life."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  Depending on which story you go with, there are different lessons to be learned. From Disney, one can learn about being brave enough to step into a life that is different from yours in order to get what your heart longs for; while in Anderson’s version, we learn to be content with what we have and not throw away everything, including our lives, for something we are not sure of."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="  Snow White, in the meantime, found a place with seven dwarfs whom she lived with and cared for. One day when they were at work in the mines, the queen went to see Snow White, disguised as an old peasant woman selling apples. Snow White was convinced to take a bite out of the apple and instantly fell down, as if dead. When the dwarfs found her, they were distraught and laid her in a glass coffin"-->
+                <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="  One day as a prince was passing by, he noticed the dwarfs mourning over a beautiful sleeping girl (for she remained as beautiful as she ever was) and was mesmerized by her beauty. He kissed her hand to bid her farewell, and at that moment, the apple dislodged itself, and Snow White opened her eyes. The prince was so happy that he asked for her hand in marriage and she accepted. There was a grand celebration, and they lived and reigned happily together. The evil queen became sick from her envy and eventually died."-->
+                <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="  We must always remember, from the fate of the queen, that if you lust after physical beauty, you will indeed lose your peace and be quite unhappy when you are not considered the most beautiful, on the contrary, kindness and gentleness win the hearts of many"-->
+                <!--android:textSize="16dp" />-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

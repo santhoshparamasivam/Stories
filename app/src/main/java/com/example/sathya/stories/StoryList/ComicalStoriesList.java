@@ -59,7 +59,6 @@ public class ComicalStoriesList extends Fragment {
             "IN THE ZOO"
             ,"KEEPING THE DOCTOR AWAY"};
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -67,6 +66,7 @@ public class ComicalStoriesList extends Fragment {
 //        return inflater.inflate(R.layout.fragment_classic_stories_list, container, false);
         View v= inflater.inflate(R.layout.fragment_classic_stories_list, container, false);
         lv1=(ListView)v.findViewById(R.id.lv1);
+        getActivity().setTitle("Comical Stories");
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, listItem);
         lv1.setAdapter(adapter);

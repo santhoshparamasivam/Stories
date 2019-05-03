@@ -27,6 +27,7 @@ public class England_London extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_england__london, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle( "ENGLAND OR LONDON");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

@@ -27,6 +27,8 @@ public class Small_things_Big_Jobs extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_small_things__big__jobs, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle(  "SMALL THINGS DO BIG JOBS");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

@@ -1,5 +1,6 @@
 package com.example.sathya.stories;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -23,7 +24,7 @@ import com.google.android.gms.ads.MobileAds;
 
 public class Mainpage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-     AdView mAdView;
+     AdView mAdView,adView1;
     private InterstitialAd mInterstitialAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +45,41 @@ public class Mainpage extends AppCompatActivity
         });
         mInterstitialAd.loadAd(adRequestInter);
         mAdView = findViewById(R.id.adView);
+        adView1 = findViewById(R.id.adView1);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+        AdRequest Request = new AdRequest.Builder().build();
+        adView1.loadAd(Request);
+        adView1.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                Log.e("errorcode",errorCode+"");
+            }
+
+            @Override
+            public void onAdOpened() {
+
+            }
+
+            @Override
+            public void onAdClicked() {
+
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+            }
+
+            @Override
+            public void onAdClosed() {
+
+            }
+        });
         mAdView.setAdListener(new AdListener() {
             @Override
             public void onAdLoaded() {
@@ -81,8 +115,13 @@ public class Mainpage extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+
+
+
+
+
             }
         });
 
@@ -125,12 +164,7 @@ public class Mainpage extends AppCompatActivity
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -154,8 +188,14 @@ public class Mainpage extends AppCompatActivity
         } else if (id == R.id.animal) {
 
         } else if (id == R.id.nav_share) {
+            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String shareBodyText = "Story For kids Future Enhance and update for Teenager ";
+            sharingIntent.putExtra(Intent.EXTRA_SUBJECT,"Bedtime Story For kids");
+            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBodyText);
+            startActivity(Intent.createChooser(sharingIntent, "Shearing Option"));
 
-        }else if (id == R.id.nav_send) {
+        }else if (id == R.id.about) {
 
         }
 

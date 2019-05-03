@@ -27,6 +27,7 @@ public class Fear_Of_God extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_fear__of__god, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
+        getActivity().setTitle( "FEAR OF GOD");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
