@@ -4,6 +4,7 @@ package com.example.sathya.stories.StoryList;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -72,6 +73,19 @@ public class ComicalStoriesList extends Fragment {
         lv1.setAdapter(adapter);
         mInterstitialAd = new InterstitialAd(getActivity());
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
+        for(int i=0;i<2000;i++) {
+
+            AdRequest adRequestInter = new AdRequest.Builder().build();
+            mInterstitialAd.setAdListener(new AdListener() {
+                @Override
+                public void onAdLoaded() {
+                    mInterstitialAd.show();
+                }
+            });
+            mInterstitialAd.loadAd(adRequestInter);
+            Log.e("Working","fine");
+
+        }
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
             @Override

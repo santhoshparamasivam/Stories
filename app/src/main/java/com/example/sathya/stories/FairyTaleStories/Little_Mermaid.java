@@ -26,7 +26,7 @@ public class Little_Mermaid extends Fragment {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_little__mermaid, container, false);
 
-        getActivity().setTitle("THE LITTLE MERMAID");
+
     return  v;}
 
 }

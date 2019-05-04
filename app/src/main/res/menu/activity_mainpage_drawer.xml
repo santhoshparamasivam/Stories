@@ -5,35 +5,19 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/bedtime"
-            android:title="BedTime Stories" />
-        <item
-            android:id="@+id/moral"
-            android:title="Moral Stories" />
-        <item
-            android:id="@+id/general"
-            android:title="General Stories" />
-        <item
-            android:id="@+id/classic"
-            android:title="Classic Stories" />
-        <item
-            android:id="@+id/fairytale"
-            android:title="Fairytales Stories" />
-        <item
-            android:id="@+id/animal"
-            android:title="Animal Stories" />
-    </group>
+            android:id="@+id/home"
+            android:title="Home" />
 
-    <item android:title="Contact">
-        <menu>
+
+        <item
+            android:id="@+id/about"
+            android:title="About Us" />
             <item
                 android:id="@+id/nav_share"
                 android:title="Share" />
-            <item
-                android:id="@+id/about"
-                android:title="About Us" />
 
-        </menu>
-    </item>
+
+
+    </group>
 
 </menu>

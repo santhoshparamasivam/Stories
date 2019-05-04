@@ -25,7 +25,7 @@ public class Sleeping_Beauty extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_sleeping__beauty, container, false);
-        getActivity().setTitle("SLEEPING BEAUTY");
+
 
     return  v;}
 

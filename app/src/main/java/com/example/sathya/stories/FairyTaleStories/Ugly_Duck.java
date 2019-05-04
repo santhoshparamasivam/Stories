@@ -25,7 +25,7 @@ public class Ugly_Duck extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_ugly__duck, container, false);
-        getActivity().setTitle("THE UGLY DUCKLING");
+
     return  v;}
 
 }

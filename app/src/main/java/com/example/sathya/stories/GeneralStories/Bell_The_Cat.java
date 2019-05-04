@@ -27,7 +27,7 @@ public class Bell_The_Cat extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_bell__the__cat, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
-        getActivity().setTitle("BELL THE CAT");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

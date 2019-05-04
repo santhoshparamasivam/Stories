@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Two Cats And Monkey"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/catsandmonkey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     One day two cats found a piece of bread. But they kept fighting for it. The first cat said it was his, but the second cat refused and claimed it to be his. A clever monkey that was walking their way decided to help them. He took the bread and told them that he would split it in half and share it equally with them. The cats agreed. But when he did this, one piece was bigger than the other. So he took a bite to make it equal. But this time, the other piece was bigger."
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    This went on for a while. He kept taking a bite off from each bread to make sure it was the same size. However, in the end, he ate up the whole bread. The angry cats asked him why he did that, and the clever monkey replied saying that if they had dealt with the problem on their own, this wouldn’t have happened, but since they were stupid and could not do that, they both lost what they could have. The happy monkey went home while the two cats remained hungry."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Stories go way back. Storytelling for some is an art, and for others, it’s a tradition. For ages, people have been telling stories to their children. These are a few of the most popular stories for children. Your child will love them. Make sure you tell him or her these stories. Stories can enhance a child’s imagination and creativity. It can also increase the child’s vocabulary. "
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Most of these stories come with a moral. This helps your child learn values so he or she can choose between right and wrong. Stories do a lot more than mere entertainment. So go ahead and incorporate the habit of listening to stories"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

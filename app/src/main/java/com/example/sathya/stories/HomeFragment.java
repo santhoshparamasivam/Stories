@@ -10,9 +10,12 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.example.sathya.stories.StoryList.AnimalStoriesList;
 import com.example.sathya.stories.StoryList.BedtimeStoriesList;
 import com.example.sathya.stories.StoryList.ComicalStoriesList;
+import com.example.sathya.stories.StoryList.ConedyStoriesList;
 import com.example.sathya.stories.StoryList.FairyTaleStoriesList;
+import com.example.sathya.stories.StoryList.FriendshipStoriesList;
 import com.example.sathya.stories.StoryList.GeneralStoryList;
 import com.example.sathya.stories.StoryList.MoralStoryList;
 import com.example.sathya.stories.Utilities.CustomGridViewAdapter;
@@ -35,7 +38,6 @@ public class HomeFragment extends Fragment {
             "Fairytales Stories",
             "Animal Stories",
             "Comedy Stories",
-            "Crime Stories",
             "Friendship Stories",
             "Love Stories",
             "Motivational Stories",
@@ -52,7 +54,6 @@ public class HomeFragment extends Fragment {
             R.drawable.animal,
             R.drawable.story,
             R.drawable.story,
-            R.drawable.animal,
             R.drawable.story,
             R.drawable.animal,
             R.drawable.story,
@@ -111,6 +112,27 @@ public class HomeFragment extends Fragment {
 
     }if(position==4){
         FairyTaleStoriesList homefragment=new FairyTaleStoriesList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }if(position==5){
+        AnimalStoriesList homefragment=new AnimalStoriesList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }if(position==6){
+        ConedyStoriesList homefragment=new ConedyStoriesList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }if(position==7){
+        FriendshipStoriesList homefragment=new FriendshipStoriesList();
         final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.frame,homefragment);
         transaction.addToBackStack(null);

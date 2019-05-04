@@ -26,7 +26,7 @@ public class Honest_Wood_Cutter extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_honest__wood__cutter, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
-        getActivity().setTitle("AN HONEST WOODCUTTER");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

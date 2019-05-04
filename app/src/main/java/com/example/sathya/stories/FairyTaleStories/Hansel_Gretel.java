@@ -26,7 +26,6 @@ public class Hansel_Gretel extends Fragment {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_hansel__gretel, container, false);
 
-        getActivity().setTitle("HANSEL AND GRETEL");
     return  v;}
 
 }

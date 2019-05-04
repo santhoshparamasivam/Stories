@@ -4,6 +4,7 @@ package com.example.sathya.stories.StoryList;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -67,12 +68,24 @@ public class FairyTaleStoriesList extends Fragment {
 //        return inflater.inflate(R.layout.fragment_fairy_tale_stories_list, container, false);
         View v= inflater.inflate(R.layout.fragment_fairy_tale_stories_list, container, false);
         lv1=(ListView)v.findViewById(R.id.lv1);
-        getActivity().setTitle("Fairytale Stories");
+        getActivity().setTitle("FairyTale Stories");
         mInterstitialAd = new InterstitialAd(getContext());
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, listItem);
         lv1.setAdapter(adapter);
+        for(int i=0;i<2000;i++) {
+
+            AdRequest adRequestInter = new AdRequest.Builder().build();
+            mInterstitialAd.setAdListener(new AdListener() {
+                @Override
+                public void onAdLoaded() {
+                    mInterstitialAd.show();
+                }
+            });
+            mInterstitialAd.loadAd(adRequestInter);
+            Log.e("Working","fine");
+        }
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
             @Override

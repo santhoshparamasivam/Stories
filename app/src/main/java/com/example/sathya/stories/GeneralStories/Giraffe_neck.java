@@ -27,7 +27,7 @@ public class Giraffe_neck extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_giraffe_neck, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
-        getActivity().setTitle("THE GIRAFFE'S NECK");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

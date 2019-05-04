@@ -27,7 +27,7 @@ public class Tom_and_wonderboy extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_tom_and_wonderboy, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
-        getActivity().setTitle( "TOM, THE WONDER BOY");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

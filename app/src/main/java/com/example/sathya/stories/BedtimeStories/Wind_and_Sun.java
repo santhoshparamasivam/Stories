@@ -28,7 +28,7 @@ public class Wind_and_Sun extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_wind_and__sun, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
-        getActivity().setTitle("THE WIND AND THE SUN");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

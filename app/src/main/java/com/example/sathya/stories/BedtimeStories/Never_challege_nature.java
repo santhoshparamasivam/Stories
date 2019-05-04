@@ -28,7 +28,7 @@ public class Never_challege_nature extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_never_challege_nature, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
-        getActivity().setTitle("NEVER CHALLENGE THE NATURE");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

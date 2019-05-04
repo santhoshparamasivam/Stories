@@ -27,7 +27,7 @@ public class Learn_to_Live_With_Weekness extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_learn_to__live__with__weekness, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
-        getActivity().setTitle("LEARN TO LIVE WITH YOUR WEAKNESSES");
+
 
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();

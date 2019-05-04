@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Crocodile and the Monkey"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/monkeyandcrocodile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     Once there was a monkey. He lived on a berry tree. One day, a crocodile came near the banks of the river where the tree was located. The monkey felt bad for the tired and hungry crocodile and gave him some berries. Soon, they became good friends. Every day the monkey would give the crocodile berries. One day it so happened that the monkey gave him some extra berries to take home for his wife."
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    When the crocodile took the berries to his wife, she loved it. But she was a very mean crocodile. She told her husband that she wanted the monkey’s heart which will be much sweeter than the berries. So the next day the crocodile went to the monkey and said his wife had invited him home for dinner. Happily, the monkey agreed."
+                android:textSize="16dp" />
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    But when they got to the middle of the river, the foolish crocodile told him the truth, that his wife wants to heat the monkey’s heart for dinner. The monkey was smart, so he quickly told him that he had left his heart in the berry tree, so he had to go get it. Happily, the crocodile agreed. But when they got to the banks, the monkey jumped to the highest branch and saved himself. He then told the crocodile that he would never trust him again. The foolish crocodile was sad, and he had to go home to his evil wife without the monkey’s heart."
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

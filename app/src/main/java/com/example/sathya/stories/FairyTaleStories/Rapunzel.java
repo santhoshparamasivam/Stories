@@ -25,7 +25,7 @@ public class Rapunzel extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_rapunzel, container, false);
-        getActivity().setTitle("RAPUNZEL");
+
     return  v;}
 
 }

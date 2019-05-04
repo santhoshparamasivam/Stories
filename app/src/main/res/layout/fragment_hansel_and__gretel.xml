@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Hansel and Gretel"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/haselandgretel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     Once there were two siblings. The boy was named Hansel, and the girl was Gretel. Their mother died, but they lived with their father. Even though they were poor, they were very happy. But one day the father married again. His new wife was a very evil woman. She told her husband that they should leave the kids in the forest because they can’t afford to feed them. The father refused at first but eventually agreed. So the next night, the parents took Hansel and Gretel to the forest. However, Hansel knew of their plan because he had heard them. So, he had collected white pebbles that he threw along the way. "
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    The evil stepmom after walking for a distance left the kids in the forest and got home with the father. But Hansel and Gretel found their way back home following the white pebbles trail. The next day, the evil stepmom decided to do this again. But she didn’t let Hansel collect any pebbles. Since they had no time, they couldn’t find their way back, and they were truly lost. Hansel and Gretel kept walking, but they were tired and hungry. Suddenly, they saw a beautiful gingerbread house."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Excited and happy they started eating it. Then, an old lady came to them saying that she would take care of them. Hansel and Gretel were happy, but they didn’t know that she was a witch. She put Hansel in a cage and started making him fat, so she could eat him. And she made Gretel do all her household chores. One day, she decided it was time to eat Hansel. She asked Gretel to make the fire hot. Gretel had to think fast. She thought of a brilliant plan to save her brother. "
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    When the fire was hot, she called the witch and asked her to check. But when the witch was doing that, she pushed the witch into the fire. This way she saved her brother. They two siblings escaped and lived happily ever after."
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

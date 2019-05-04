@@ -27,7 +27,7 @@ public class To_The_City_In_A_Min extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_to__the__city__in__a__min, container, false);
         mInterstitialAd = new InterstitialAd(getActivity());
-        getActivity().setTitle("TO THE CITY IN A MINUTE");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

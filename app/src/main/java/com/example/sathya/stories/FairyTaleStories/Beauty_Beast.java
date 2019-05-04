@@ -33,7 +33,7 @@ public class Beauty_Beast extends Fragment {
         View v = inflater.inflate(R.layout.fragment_beauty__beast, container, false);
 
         mInterstitialAd = new InterstitialAd(getContext());
-        getActivity().setTitle("BEAUTY AND BEAST");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

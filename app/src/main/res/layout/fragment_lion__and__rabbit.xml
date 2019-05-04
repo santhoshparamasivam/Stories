@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Lion And RAbbit"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lionrab" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Once upon a time, there was a proud, evil lion. He said he was the king of the jungle. Every day, he would mercilessly go hunting and kill many animals for his food. Soon, all the animals were worried. "
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   They held a meeting and decided that if the lion continues to do this, then no animal will survive. So, they approached the lion and told him a proposal. Each day, they said, they would send one animal to the lion’s den. This way, the rest of the animals for that day will be at peace, and the lion would not need to go hunting. The lion liked the plan. So from the next day, the lion would wait in his den while the others sent an animal for his meal. This happened for many days. Finally, it was the turn of a very old but wise rabbit. He was forced to be the meal of the day for the lion. He decided to put an end to this. So, he took a longer route and made sure he got to the lion’s den very late."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="   The hungry lion who was angry roared at the rabbit and asked him why he was late. The rabbit then told him that he was late because another stronger lion was chasing him. He told the lion that the stronger lion claimed to be the king of the jungle. When the lion heard this, he was furious. He asked the rabbit to show him where the other lion was. The rabbit took the lion to a well. He pointed inside and told the lion that the other lion was inside."
+                android:textSize="16dp" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lionrabbit" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" When the lion looked in, he saw his own reflection but thought it was another lion. He roared in anger, and the reflection did the same. Brimming with anger, the lion jumped into the well to fight with the other lion but ended up falling to his death because of his stupidity. The moral of this story is that sometimes, intelligence is more important than physical strength."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -29,7 +29,7 @@ public class Cindrella_Story extends Fragment {
         View v = inflater.inflate(R.layout.fragment_cindrella__story, container, false);
 
         mInterstitialAd = new InterstitialAd(getContext());
-        getActivity().setTitle("CINDRELLA");
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {

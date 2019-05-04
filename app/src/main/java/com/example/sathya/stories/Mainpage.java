@@ -16,6 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.sathya.stories.BedtimeStories.AboutUs;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -35,6 +36,7 @@ public class Mainpage extends AppCompatActivity
         MobileAds.initialize(this, "ca-app-pub-3643602219143275~6670393241");
 
         mInterstitialAd = new InterstitialAd(this);
+
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
@@ -46,10 +48,15 @@ public class Mainpage extends AppCompatActivity
         mInterstitialAd.loadAd(adRequestInter);
         mAdView = findViewById(R.id.adView);
         adView1 = findViewById(R.id.adView1);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-        AdRequest Request = new AdRequest.Builder().build();
-        adView1.loadAd(Request);
+        for(int i=0;i<2000;i++) {
+
+            AdRequest Request = new AdRequest.Builder().build();
+            adView1.loadAd(Request);
+            AdRequest adRequest = new AdRequest.Builder().build();
+            mAdView.loadAd(adRequest);
+        }
+
+
         adView1.setAdListener(new AdListener() {
             @Override
             public void onAdLoaded() {
@@ -115,8 +122,8 @@ public class Mainpage extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
+                Snackbar.make(view, "Contact US : Sandhoshparamasivam@gmail.com", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
 
 
 
@@ -175,17 +182,13 @@ public class Mainpage extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.bedtime) {
+        if (id == R.id.home) {
+            Intent S=new Intent(Mainpage.this,Mainpage.class);
+            startActivity(S);
 
-        } else if (id == R.id.moral) {
-
-        } else if (id == R.id.general) {
-
-        } else if (id == R.id.classic) {
-
-        } else if (id == R.id.fairytale) {
-
-        } else if (id == R.id.animal) {
+        } else if (id == R.id.about) {
+            Intent S=new Intent(Mainpage.this,AboutUs.class);
+            startActivity(S);
 
         } else if (id == R.id.nav_share) {
             Intent sharingIntent = new Intent(Intent.ACTION_SEND);
@@ -194,9 +197,6 @@ public class Mainpage extends AppCompatActivity
             sharingIntent.putExtra(Intent.EXTRA_SUBJECT,"Bedtime Story For kids");
             sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBodyText);
             startActivity(Intent.createChooser(sharingIntent, "Shearing Option"));
-
-        }else if (id == R.id.about) {
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
