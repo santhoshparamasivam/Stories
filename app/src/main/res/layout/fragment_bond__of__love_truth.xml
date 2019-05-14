@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="Bond of Love and the Truth"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bondoflove" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        A very loving couple had been married for over 10 years without any child and it was becoming their 11th year.  Steve and Sarah stayed with each other and greatly hoped that they will have a child before their 11th year of marriage runs out because they were under persuasion from friends and family members to get a divorce.  But they couldn’t let go because of the strong bond of love between them.  Months passed and one day, while Dave was returning from work, he saw his wife walking down the road with a man."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         Months passed and one day, while Dave was returning from work, he saw his wife walking down the road with a man.  The man had his arms around her neck and they looked very happy.  For over a week, he saw the same man with his wife at various places and one evening while Dave was returning from work he saw the man drop her off at the house after giving her a kiss on the cheek.  Dave was angry and sad but he didn’t spoke of it with his wife."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        Two days later after a hectic day at work, Dave was taking water with a glass jug from the dispenser when the phone rang.  He picked it up and the person said, ”Hello dear, I’ll be coming to your house this evening to see you as promised.”  Dave hung up the phone.  It was a male voice and he was sure the person was the man he had always seen his wife with.  He suddenly became shaky with the thought that he has lost his wife to another man.  The glass jug fell from his hand and shattered into pieces"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         His wife came running into the room asking, ”Is everything okay?”  In anger, he gave his wife a push and she fell.  She wasn’t moving or getting up.  Dave then realized that she fell where he broke the glass jug.  A large piece of glass had pierced her.  He felt her breath, pulse, and heartbeat but there she lay lifeless.  In a total confusion, he saw an envelope in her hand.  He took it, opened it and was shocked by its content – it was a letter.  It read:"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          “My loving husband, words can not express how I feel so I had to write it down. I have been going to see a doctor for over a week and I wanted to be sure before I give you the news.
+
+The doctor confirmed it that I am pregnant with a twin and our baby is due 2 months from now.  The same doctor is my long lost brother whom I lost contact with after our marriage. He has promised to take care of me and our baby and give us the best without collecting a dime.
+
+He also promised to have dinner with us today.  Thanks for staying by my side.
+
+Your loving wife."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         The letter fell from his hand.  There was a knock at the door and the same man he had seen with his wife came in and said, ”Hello Dave, I suppose I’m right. I am Max, the brother of your wife”  Suddenly, Max noticed his sister lying in a pool of her blood.  He rushed her to the hospital and she was in a coma.  She had lost her twins."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        Moral: We should not be too quick to take unnecessary actions in our relationship or marriage when we haven’t questioned our partner or spouse on what we saw or heard about them.  We all have our faults.  We shouldn’t be too fast to judge others.  Not everything you see, hear or believe about someone is true.  Always learn to control yourself under any condition or situation, irrespective of what you’ve heard or seen."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

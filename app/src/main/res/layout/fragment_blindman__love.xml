@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="A Blind Man’s Love"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/blindman" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          A man married a beautiful girl.  He loved her very much.  One day she developed a skin disease.  Slowly she started to lose her beauty.  It so happened that one day her husband left for a tour.  While returning he met with an accident and lost his eyesight.  However, their married life continued as usual.  But as days passed she lost her beauty gradually. Blind husband did not know this and there was not any difference in their married life.  He continued to love her and she also loved him very much.  One day she died.  Her death brought him a great sorrow.  He finished all her last rites and wanted to leave that town."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         A man from behind called and said, “Now how will you be able to walk all alone?  All these days your wife used to help you”.  He replied, “I am not blind.  I was acting because if she knew l could see her skin condition due to a disease, it would have pained her more than her disease.  I didn’t love her for her beauty alone, but I fell in love with her caring and loving nature.  So I pretended to be blind.  I only wanted to keep her happy”."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Moral:  When you truly love someone, you will go to any extent to keep your loved one happy and sometimes it is good for us to act blind and ignore one another’s short comings in order to be happy.  The Beauty will fade with time, but heart and soul will always be the same.  Love the person for what he/she is from inside, not from outside."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         “How do they end up marrying someone other than they loved?” the student asked.  The teacher said, “in order to answer your question, go to the corn field and choose the biggest corn and come back. But the rule is same as before, you can go through them only once and cannot turn back to pick.” "
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="           The student went to the corn field, this time he was careful to not to repeat the previous mistake.  When he reached to the middle of the field, he picked one medium corn that he felt satisfied with and went back to the teacher.  He described how he made a choice.  The teacher told him, “This time you didn’t came empty handed.  You looked for one that is just nice, and you had put your faith that this is the best one you can get. This is how one makes a choice for marriage.”"
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="         The student stood confused.  The teacher asked, “What is bothering you now?”  The student replied, “I am wondering which would have been better, marrying a person you love or loving the person you marry”.  The teacher replied, “It’s a very easy answer, only if you are willing to admit it to yourself”."-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="         Moral:  Life is like a basket of fruits. Either you have to make a choice of eating the fruit you love or be content with something that is healthy!  Choose wisely else you may have to spend your life wondering, what if..  As long as you stay true to yourself and honest, you can’t go wrong with any of these two choices."-->
+                <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

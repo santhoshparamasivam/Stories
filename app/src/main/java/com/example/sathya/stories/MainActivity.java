@@ -1,6 +1,9 @@
 package com.example.sathya.stories;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -16,16 +19,16 @@ public class MainActivity extends AppCompatActivity {
                 try {
 
                     sleep(5*1000);
-
-
                     Intent i=new Intent(getBaseContext(),Mainpage.class);
                     startActivity(i);
 
                     finish();
                 } catch (Exception e) {
+
                 }
             }
         };
         background.start();
+
     }
 }

@@ -36,13 +36,13 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+                android:src="@drawable/dogasmanager" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,14 +50,14 @@
                 android:text="        Once a dog saw a cowshed while searching for food.. At that time, the cows were away for work. So, the dog climbed on to a pile of hay in the manger hoping to find something to eat"
                 android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+            <!--<ImageView-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginEnd="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:src="@drawable/animal" />-->
 
             <TextView
                 android:layout_width="wrap_content"

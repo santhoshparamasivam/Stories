@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text=" This was bound to happen"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/boundhappen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      Once a highly successful businessman, running a health insurance company was getting ready to go to his office. When he reached into his car and opened a door, a stray dog sleeping under his car suddenly came out and bit on his leg! The businessman got very angry and quickly picked up a few rocks and threw at the dog but none hit the dog. The dog ran away."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         Upon reaching his office, the businessman calls a meeting of his managers and during the meeting he puts the anger of dog on them. The managers also get upset by the anger of their boss and they put their anger to the employees working under them. The chain of this reaction keeps going till the lower level of employees and finally, the anger reaches to the office peon."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        Now, there was no one working under the peon! So, after the office time is over, he reaches his home, and wife opens the door. She asked him, “Why are you so late today?” The peon upset due to anger threw at him by the staff, gives one slap to his wife! And says, “I didn’t go to the office to play football, I went to work so don’t irritate me with your stupid questions!”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        So, now the wife got upset that she got a scolding plus a slap for no reason. She puts her anger on his son who was watching tv and give him a slap, “This is all you do, you have no interest in studying! Turn off the TV now!”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        The son gets upset now! He walks out of his house and sees a dog passing by looking at him. He picks up a rock and hits the dog in his anger and frustration. The dog, getting hit by a rock, runs away barking in pain.
+
+                This was the same dog that bit the businessman early morning."
+                android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="        Moral: This was bound to happen. Reap as one has sown. This is how the life works. While we all worry about hell and heaven based on our deeds, we should concentrate more on how we are living and behaving. Do good, Good will come, Do Wrong, Wrong will come."
+            android:textSize="16dp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         Moral:  Life is like a basket of fruits. Either you have to make a choice of eating the fruit you love or be content with something that is healthy!  Choose wisely else you may have to spend your life wondering, what if..  As long as you stay true to yourself and honest, you can’t go wrong with any of these two choices."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Reflection of Your Actions"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/reflectionaction" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         A man and his son were going through the forest hills. Suddenly, the boy fell down on the trail and screamed with a pain, “Aah!” Surprisingly, he heard the same voice from the mountain, “Aah!” Curiously, the boy shouted, “Who is this?” But the voice replied the same, “Who is this?” He got angry, and shouted again, “You are stupid!” And again the voice replied the same, “You are stupid!”"
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         Annoyed By this, the boy asked his father, “Father, What is going on? Who is this?” The Father replied, “Son, Pay attention”. The father shouted, “You are very nice”. And the voice responded the same, “You are very nice!” The father again shouted, “Thank you”. And the voice again responded the same, “Thank you!” The son was very surprised but he still could not understand what was happening."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="       The father explained, “Son, people call it resonance, but this is the truth of the life. The life is a reflection of your actions. What you will give to others, you will receive the same in return.”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="       Moral: What we give to others, life gives us the same in return. Your life is not an accident or a coincidence, but it is the shadow of your actions."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="        “What use is it,” said another, “to read the stars, when you can’t see what’s right here on the earth?”"-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="        Moral: We all want our future to be bright and happy, but the time doesn’t stop for anyone. Each tomorrow turns into today, your present is also a part your future. There is always a tomorrow to look forward to and improve, but you can’t go back to yesterday. So, maintain the balance of your present life while you work for a better tomorrow."-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         Moral:  Life is like a basket of fruits. Either you have to make a choice of eating the fruit you love or be content with something that is healthy!  Choose wisely else you may have to spend your life wondering, what if..  As long as you stay true to yourself and honest, you can’t go wrong with any of these two choices."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -42,7 +42,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/antandgrashhopper" />
+                android:src="@drawable/catsandmonkey" />
 
             <TextView
                 android:layout_width="wrap_content"

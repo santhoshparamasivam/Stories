@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Story of Regret"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/storyofregret" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          There was this guy who believed very much in true love and decided to take his time to wait for his right girl to appear. He believed that there would definitely be someone special out there for him, but none came. Every year at Christmas, his ex-girlfriend would return from Vancouver to look him up. He was aware that she still held some hope of re-kindling the past romance with him. He did not wish to mislead her in any way. So he would always get one of his girl friends to pose as his steady whenever she came back. That went on for several years and each year, the guy would get a different girl to pose as his romantic interest."
+                android:textSize="16sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      So whenever the ex-girlfriend came to visit him, she would be led into believing that it was all over between her and the guy. The girl took all those rather well, often trying to casually tease him about his different girlfriends, or so, as it seemed! In fact, the girl often wept in secret whenever she saw him with another girl, but she was too proud to admit it. Still, every Christmas, she returned, hoping to re-kindle some form of romance. But each time, she returned to Vancouver feeling disappointed."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="     Finally, she decided that she could not play that game any longer. Therefore, she confronted him and professed that after all those years, he was still the only man that she had ever loved. Although the guy knew of her feelings for him, he was still taken back and have never expected her to react that way. He always thought that she would slowly forget about him over time and come to terms that it was all over between them."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="     Although he was touched by her undying love for him and wanted so much to accept her again, he remembered why he rejected her in the first place-she was not the one he wanted. So he hardened his heart and turned her down cruelly. Since then, three years have passed and the girl never returned anymore. They never even wrote to each other. The guy went on with his life… still searching for the one but somehow deep inside him, he missed the girl."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         On the Christmas of 1995, he went to his friend’s party alone. “Hey, how come all alone this year? Where are all your girlfriends? What happened to that Vancouver babe who joins you every Christmas?”, asked one of his friends. He felt warm and comforted by his friend’s queries about her still, he just surged on."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Then, he came upon one of his many girlfriends whom he once requested to pose as his steady. He wanted so much to ignore her ….. not that he was impolite, but because at that moment, he just didn’t feel comfortable with those girlfriends anymore. It was almost like he was being judged by them. The girl saw him and shouted across the floor for him. Unable to avoid her, he went up to acknowledge her."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         “Hi… how are you? Enjoying the party?” the girl asked.
+
+       “Sure… yeah!”, he replied.
+
+       She was slightly tipsy… must be from the whiskey on her hand. She continued, “Why? Don’t you need someone to pose as your girlfriend this year?” Then he answered, “No, there is no need for that anymore.”"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Before he can continue, he was interrupted, “Oh yes! Must have found a girlfriend! You haven’t been searching for one for the past years, right?” The man looked up as if he has struck gold, his face beamed and looked directly at the drunken girl. He replied, “Yes… you are right! I haven’t been looking for
+anyone for the past years.”"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        With that, the man darted across the floor and out the door, leaving the lady in much bewilderment. He finally realized that he has already found his dream girl, and she was… the Vancouver girl all along! The drunken lady has said something that awoken him."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        All along he has found his girl. That was why he did not bother to look further when he realized she was not coming back. It was not any specific girl he was seeking! It was the perfection that he wanted, and yes… perfection! A Relationship is something both parties should work on. Realizing that he had let away someone so important in his life, he decided to call her immediately. His whole mind was flooded with fear. He was afraid that she might have found someone new or no longer had the same feelings anymore… For once, he felt the fear of losing someone."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         As it was Christmas eve, the line was quite hard to get through, especially an overseas call. He tried again and again, never giving up. Finally, he got through…. precisely at 1200 midnight. He confessed his love for her and the girl was moved to tears. It seemed that she never got over him! Even after so long, she was still waiting for him, never giving up."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        He was so excited to meet her and to begin his new chapter of their lives. He decided to fly to Vancouver to join her. It was the happiest time of their lives! But their happy time was short-lived. Two days before he was supposed to fly to Vancouver, he received a call from her father. She had a head-on car collision with a drunken driver. She passed away after 6 hours in a coma."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        The guy was devastated, as it was a complete loss. Why did fate play such cruel games with him? He cursed the heaven for taking her away from him, denying even one last look at her! How cruel he cursed! How he damned the Gods…!! How he hated himself… for taking so long to realize his mistake!!  That was in 1996."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="       Moral: Treasure what you have… Time is too slow for those who wait, Too swift for those who fear, Too long for those who grief, Too short for those who rejoice, But for those who love… Time is Eternity. For all you out there with someone special in your heart, cherish that person, cherish every moment that you spend together that special someone, for in life, anything can happen anytime. You may painfully regret, only to realize that it is too late."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="           The student went to the corn field, this time he was careful to not to repeat the previous mistake.  When he reached to the middle of the field, he picked one medium corn that he felt satisfied with and went back to the teacher.  He described how he made a choice.  The teacher told him, “This time you didn’t came empty handed.  You looked for one that is just nice, and you had put your faith that this is the best one you can get. This is how one makes a choice for marriage.”"-->
+            <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         The student stood confused.  The teacher asked, “What is bothering you now?”  The student replied, “I am wondering which would have been better, marrying a person you love or loving the person you marry”.  The teacher replied, “It’s a very easy answer, only if you are willing to admit it to yourself”."-->
+            <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         Moral:  Life is like a basket of fruits. Either you have to make a choice of eating the fruit you love or be content with something that is healthy!  Choose wisely else you may have to spend your life wondering, what if..  As long as you stay true to yourself and honest, you can’t go wrong with any of these two choices."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Sometimes Just let it be"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sometimesjustitbe" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Once Buddha was walking from one town to another town with a few of his followers. This was in the initial days. While they were traveling, they happened to pass a lake. They stopped there and Buddha told one of his disciples, “I am thirsty. Please get me some water from that lake there”."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        The disciple walked up to the lake. When he reached it, he noticed that some people were washing clothes in the water and, right at that moment, a bullock cart started crossing the lake right at the edge of it. As a result, the water became very muddy, very turbid. The disciple thought, “How can I give this muddy water to Buddha to drink?!” So he came back and told the Buddha, “The water in there is very muddy. I don’t think it is fit to drink”."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          So, the Buddha said, let us take a little rest here by the tree. After about half an hour, again Buddha asked the same disciple to go back to the lake and get him some water to drink. The disciple obediently went back to the lake. This time he found that the lake had absolutely clear water in it. The mud had settled down and the water above it looked fit to be had. So he collected some water in a pot and brought it to the Buddha."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         The Buddha looked at the water, and then he looked up at the disciple and said, “See, You let the water be and the mud settled down on its own. You got a clear water. It didn’t require any effort”."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Moral: Your mind is also like that. When it is disturbed, just let it be. Give it a little time. It will settle down on its own. You don’t have to put in any effort to calm it down. We can judge and take best decisions of our life when we stay calm."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="         Moral: We should think before judging others. Always be polite and learn to see things from others point of view."-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        The boy went home and thought about it long and hard. He asked his father what he should do. His father said, `Look, son, you have to make up your own mind on this. However, I think it is a very important decision for you.’ Finally, after sitting with it for a week, the boy turned in the same paper, making no changes at all."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        He stated, “You can keep the F and I’ll keep my dream.”"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        Monty then turned to the assembled group and said, “I tell you this story because you are sitting in my 4,000-square-foot house in the middle of my 200-acre horse ranch. I still have that school paper framed over the fireplace.” He added, “The best part of the story is that two summers ago that same schoolteacher brought 30 kids to camp out on my ranch for a week.” When the teacher was leaving, he said, “Look, Monty, I can tell you this now. When I was your teacher, I was something of a dream stealer. During those years I stole a lot of kids dreams. Fortunately, you had enough gumption not to give up on yours.”"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        Moral: Don’t let anyone steal your dreams. Follow your heart, no matter what.   No Dream is too big or too small when one works hard to live it.  One should always try making dreams come true no matter what."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

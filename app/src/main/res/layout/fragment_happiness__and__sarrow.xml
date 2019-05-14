@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="HAPPINESS AND SARROW"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/burninghouse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   A man who has gone out of his town comes back and finds that his house is on fire. It was one of the most beautiful houses in the town, and the man loved the house the most! Many were ready to give a double price for the house, but he had never agreed for any price and now it is just burning before his eyes. And thousands of people have gathered, but nothing can be done, the fire has spread so far that even if you try to put it out, nothing will be saved. So he became very sad."
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   His son comes running and whispers something in his ear, “Don’t be worried. I sold it yesterday and at a very good price. The offer was so good, I could not wait for you. Forgive me.”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="    The Father said, “thank God, it’s not ours now!” Then he became relaxed and stood as a silent watcher, just like 1000s of other watchers."
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="   Then the second son comes running, and he says to the father, “What are you doing? the house is on fire and you are only watching it burn?” The father said, “Don’t you know, your brother has sold it.”"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="   He said, “we have taken only advance amount, not settled fully. I doubt now that the man is going to purchase it now.”"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="   Tears which had disappeared came back to the father’s eyes, his heart started to beat fast. And then the third son comes, and he says, “That man is a man of his word. I have just come from him.” He said, “It doesn’t matter whether the house is burnt or not, it is mine. And I am going to pay the price that I have settled for. Neither you knew, nor I knew that the house would catch on fire.”"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="   Then all just stood and watched the house burn without a worry."
+                android:textSize="16dp" />
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginEnd="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:src="@drawable/catandrabbit" />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" Moral:  This is a very complicated human nature to describe. Even though person here loved his house which he lost, became relaxed knowing it was not his anymore. He never wanted to give it away till it was beautiful but, as soon as it started to lose its beauty, he didn’t mind letting it go for a profit.   Sorrow and Happiness followed after each son came with their advice. But, most important thing to understand is, how his feeling changed.  How the ratio of loss and profit changed his feelings towards a house, which he loved the most.  This is how in present time we have come to give a priority to our relations and friendship – based on loss or profit ratio.  Everyone should understand this story and put their own moral."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Needy King and a Sage"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kingandsage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       A Sage was passing through the capital city of the famous king. While he was walking, he noticed a single currency coin on the road. He picked it up. He was satisfied with his simple living and he had no use of that coin. So, he planned to donate it to the one who is in need of it. He strolled around the streets throughout the day but didn’t find anyone such. Finally, he reached the rest area and spent a night there."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        Next morning, he wakes up in the morning for his daily activities and sees that a king is going for his invasion of another state with his war ready army. When the king saw the sage standing, he ordered his army to be stopped. He came to the Sage and said, “Oh Great Sage, I am going to war to win another state so that my state can be expanded. So bless me to be victorious”."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          After thinking, Sage gave a single currency coin to the king! The king was confused and annoyed with this because what use he has for a single coin while he is already one of the richest kings! He curiously asked a sage, “what’s the meaning of this one coin?”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         A Sage explained, “Oh Great King! I found this coin yesterday while strolling around the streets of your capital city. But I had no use of it. So, I had decided that I will donate it to someone needy. I strolled around till the evening in your capital, but found no one such. Everyone was living a happy life. It seemed that they were satisfied with what they had. So I found no one to give this coin. But today, the king of this state, still have the desire to gain more and not satisfied with what he already has, I felt you were in need of this coin.”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         The King realized his mistake and gave up the planned war."
+                android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         Moral: We all should learn to be happy with what we have. Yes, we all desire more or better than we already have, but do not waste a chance of enjoying what you already have. There are those who may not have what you have, and there will be some who have lots more than you have. Do not always compare, be happy and lead a healthy life."
+            android:textSize="16dp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        The boy went home and thought about it long and hard. He asked his father what he should do. His father said, `Look, son, you have to make up your own mind on this. However, I think it is a very important decision for you.’ Finally, after sitting with it for a week, the boy turned in the same paper, making no changes at all."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        He stated, “You can keep the F and I’ll keep my dream.”"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        Monty then turned to the assembled group and said, “I tell you this story because you are sitting in my 4,000-square-foot house in the middle of my 200-acre horse ranch. I still have that school paper framed over the fireplace.” He added, “The best part of the story is that two summers ago that same schoolteacher brought 30 kids to camp out on my ranch for a week.” When the teacher was leaving, he said, “Look, Monty, I can tell you this now. When I was your teacher, I was something of a dream stealer. During those years I stole a lot of kids dreams. Fortunately, you had enough gumption not to give up on yours.”"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        Moral: Don’t let anyone steal your dreams. Follow your heart, no matter what.   No Dream is too big or too small when one works hard to live it.  One should always try making dreams come true no matter what."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

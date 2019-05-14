@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Keeping the roots stronger"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/keepingtheroot" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Once upon a time, there were two neighbors living next to each other. One of them was a retired teacher and another was an insurance agent who had a lot of interest in technology. Both of them had planted different plants in their garden. The retired teacher was giving a small amount of water to his plants and didn’t always give a full attention to them, while the other neighbor interested in technology, had given a lot of water to his plants and looked after them too well."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        The retired teacher’s plants were simple but looked good. The insurance agent’s plants were much fuller and greener. One day, during the night, there was a heavy rain and a wind due to a minor storm. Next morning, both of the neighbors came out to inspect the damage to their garden. The neighbor who was an insurance agent saw that his plants came off from the roots and were totally destroyed. But, the retired teacher’s plants were not damaged at all and were standing firm."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          The insurance agent neighbor was surprised to see it, he went to the retired teacher and asked, “We both grew the same plants together, I actually looked after my plants better than you did for yours, and even gave them more water. Still, my plants came off from the roots, while yours didn’t. How is that possible?”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         The retired teacher smiled and said, “You gave your plants more attention and water, but because of that they didn’t need to work themselves for it.  You made it easy for them.  While I gave them just an adequate amount of water and let their roots search for more.   And, because of that, their roots went deeper and that made their position stronger.  That is why my plants survived”."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Moral:  This story is about parenting where children are like plants.  If everything is given to them, they will not understand the hard work it takes to earn those things.  They will not learn to work themselves and respect it.  Sometimes it’s best to guide them instead of giving them.   Teach them how to walk, but let them follow their path."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="         Moral: We all should learn to be happy with what we have. Yes, we all desire more or better than we already have, but do not waste a chance of enjoying what you already have. There are those who may not have what you have, and there will be some who have lots more than you have. Do not always compare, be happy and lead a healthy life."-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        The boy went home and thought about it long and hard. He asked his father what he should do. His father said, `Look, son, you have to make up your own mind on this. However, I think it is a very important decision for you.’ Finally, after sitting with it for a week, the boy turned in the same paper, making no changes at all."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        He stated, “You can keep the F and I’ll keep my dream.”"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        Monty then turned to the assembled group and said, “I tell you this story because you are sitting in my 4,000-square-foot house in the middle of my 200-acre horse ranch. I still have that school paper framed over the fireplace.” He added, “The best part of the story is that two summers ago that same schoolteacher brought 30 kids to camp out on my ranch for a week.” When the teacher was leaving, he said, “Look, Monty, I can tell you this now. When I was your teacher, I was something of a dream stealer. During those years I stole a lot of kids dreams. Fortunately, you had enough gumption not to give up on yours.”"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        Moral: Don’t let anyone steal your dreams. Follow your heart, no matter what.   No Dream is too big or too small when one works hard to live it.  One should always try making dreams come true no matter what."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="A King’s Painting"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lazymangodplan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Once upon a time, there was a very lazy man who would always look for an easier way to feed himself. One day while he was searching for something to eat, he saw the fruit farm. He looked around and didn’t see anyone guarding the fruits on the tree, so he quickly decided to steal some fruits. But as soon as he walked into the farm and started to climb the tree, the farmer saw him and started coming at him to catch him. The lazy man saw the farmer coming at him with a stick, he got afraid and ran towards the forest nearby and went inside it to hide."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         After some time when he felt he started to move on from the forest and while passing through, he saw the wonderful scene. There was a fox. It had only two legs and still was crawling on them happily. The lazy man thought, how can this fox stay alive in such condition?! The fox can’t run, how he must be able to feed himself or stay alive from the threat of other animals."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          The lazy man felt happy seeing god’s play. He thought the god who is the creator of all, always has a plan set to take care of what he created. He felt that god must have something planned for him too. So, he left that place and sat somewhere away alone waiting for someone to feed him too. As time starting to pass, he kept looking at the road, waiting for his food. He waited there for 2 days without any food! Finally, he couldn’t bear the hunger and started to leave."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        He met an old sage (a wise person famed for wisdom) on the way. He told everything happened to the sage. The sage first gave him some food and water. After having it, the lazy man asked the sage, “oh wise one, the god had shown his mercy on the crippled fox, but why the god was so cruel to me?”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          The old sage with a smile said, “True that the creator has a plan for everyone. You are obviously a part of the god’s plan. But Son, You took his sign in a wrong way. He didn’t want you to be like the fox. He wanted you to be like the Lion”."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Moral: Often we misunderstand the signs. God has given everyone a strength and ability to do their part. Always learn to see the things in a positive way and see yourself in a strong position to help the ones who need. Don’t go for the easy choice. Make a right choice."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="         Moral: We should always think positive of others and ignore their deficiencies. We should learn to focus on the good things instead of trying to hide weaknesses. If we think and approach positively even in a negative situation, then we will be able to solve our problems more efficiently."-->
+                <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

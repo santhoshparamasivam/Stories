@@ -37,12 +37,12 @@
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+                android:src="@drawable/fatherdaughter" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,14 +50,7 @@
                 android:text="  Santhosh was a sharp and intelligent boy. One day, his father got back from his office and called him in a harsh tone. Santhosh got frightened and came immediately. He thought, 'Dad just arrived from his office. Why is he calling me so harshly? Is he angry with me?'"
                 android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+
 
             <TextView
                 android:layout_width="wrap_content"

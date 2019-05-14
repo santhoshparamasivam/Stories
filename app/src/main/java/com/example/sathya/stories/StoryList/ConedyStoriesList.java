@@ -2,6 +2,7 @@ package com.example.sathya.stories.StoryList;
 
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
@@ -12,23 +13,13 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.sathya.stories.FairyTaleStories.Beauty_Beast;
-import com.example.sathya.stories.FairyTaleStories.Cindrella_Story;
-import com.example.sathya.stories.FairyTaleStories.Frog_Prince;
-import com.example.sathya.stories.FairyTaleStories.Goldilocks_and_Three_Bears;
-import com.example.sathya.stories.FairyTaleStories.Hansel_Gretel;
-import com.example.sathya.stories.FairyTaleStories.Little_Mermaid;
-import com.example.sathya.stories.FairyTaleStories.Rapunzel;
-import com.example.sathya.stories.FairyTaleStories.Sleeping_Beauty;
-import com.example.sathya.stories.FairyTaleStories.Snow_White;
-import com.example.sathya.stories.FairyTaleStories.Ugly_Duck;
-import com.example.sathya.stories.FunnyStoriesList.Crocodile_And_Monkey;
-import com.example.sathya.stories.FunnyStoriesList.Hansel_and_Gretel;
-import com.example.sathya.stories.FunnyStoriesList.Hare_And_Tortoise;
-import com.example.sathya.stories.FunnyStoriesList.Lion_And_Rabbit;
-import com.example.sathya.stories.FunnyStoriesList.The_Boy_Who_cried_Wolf;
-import com.example.sathya.stories.FunnyStoriesList.The_Thirsty_Crow;
-import com.example.sathya.stories.FunnyStoriesList.Two_Cats_And_Monkeys;
+import com.example.sathya.stories.FunnyStories.Crocodile_And_Monkey;
+import com.example.sathya.stories.FunnyStories.Hansel_and_Gretel;
+import com.example.sathya.stories.FunnyStories.Hare_And_Tortoise;
+import com.example.sathya.stories.FunnyStories.Lion_And_Rabbit;
+import com.example.sathya.stories.FunnyStories.The_Boy_Who_cried_Wolf;
+import com.example.sathya.stories.FunnyStories.The_Thirsty_Crow;
+import com.example.sathya.stories.FunnyStories.Two_Cats_And_Monkeys;
 import com.example.sathya.stories.R;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -64,18 +55,25 @@ public class ConedyStoriesList extends Fragment {
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, listItem);
         lv1.setAdapter(adapter);
-        for(int i=0;i<2000;i++) {
+        new Handler().postDelayed(new Runnable() {
 
-            AdRequest adRequestInter = new AdRequest.Builder().build();
-            mInterstitialAd.setAdListener(new AdListener() {
-                @Override
-                public void onAdLoaded() {
-                    mInterstitialAd.show();
-                }
-            });
-            mInterstitialAd.loadAd(adRequestInter);
-            Log.e("Working","fine");
-        }
+            @Override
+            public void run() {
+//                Intent in = new Intent(SplashScreen.this, Profile.class);
+//                startActivity(in);
+                AdRequest adRequestInter = new AdRequest.Builder().build();
+                mInterstitialAd.setAdListener(new AdListener() {
+                    @Override
+                    public void onAdLoaded() {
+                        mInterstitialAd.show();
+                    }
+                });
+                mInterstitialAd.loadAd(adRequestInter);
+                Log.e("Working","fine");
+//                finish();
+            }
+        }, 2000);
+
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
             @Override

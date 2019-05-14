@@ -2,6 +2,7 @@ package com.example.sathya.stories.StoryList;
 
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
@@ -13,7 +14,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.sathya.stories.FriendshipStories.Bear_And_Two_Friends;
+import com.example.sathya.stories.FriendshipStories.Four_Friends;
+import com.example.sathya.stories.FriendshipStories.Happiness_And_Sarrow;
 import com.example.sathya.stories.FriendshipStories.Having_Best_Friend;
+import com.example.sathya.stories.FriendshipStories.Hundread_Gold_Coins_Birbal;
+import com.example.sathya.stories.FriendshipStories.The_Blank_Question_Paper;
+import com.example.sathya.stories.FriendshipStories.The_Ship_Of_Friendship;
 import com.example.sathya.stories.FriendshipStories.The_True_friend;
 import com.example.sathya.stories.FriendshipStories.TwoGoats;
 import com.example.sathya.stories.R;
@@ -36,12 +42,12 @@ public class FriendshipStoriesList extends Fragment {
             "The True Friend",
             "The Bear and The Two Friends",
             "Having a Best Friend",
-            "SNOW WHITE",
-            "THE LITTLE MERMAID",
-            "GOLDILOCKS AND THE THREE BEARS",
-            "HANSEL AND GRETEL",
-            "THE UGLY DUCKLING",
-            "THE FROG PRINCE"};
+            "Happiness and Sorrow",
+            "The Ship of Friendship",
+            "The Four Friends",
+            "A Blank Question Paper",
+            "Hundred Gold Coins & Birbal",
+            };
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -57,18 +63,25 @@ public class FriendshipStoriesList extends Fragment {
                 android.R.layout.simple_list_item_1, listItem);
 
         lv1.setAdapter(adapter);
-        for(int i=0;i<2000;i++) {
+        new Handler().postDelayed(new Runnable() {
 
-            AdRequest adRequestInter = new AdRequest.Builder().build();
-            mInterstitialAd.setAdListener(new AdListener() {
-                @Override
-                public void onAdLoaded() {
-                    mInterstitialAd.show();
-                }
-            });
-            mInterstitialAd.loadAd(adRequestInter);
-            Log.e("Working","fine");
-        }
+            @Override
+            public void run() {
+//                Intent in = new Intent(SplashScreen.this, Profile.class);
+//                startActivity(in);
+                AdRequest adRequestInter = new AdRequest.Builder().build();
+                mInterstitialAd.setAdListener(new AdListener() {
+                    @Override
+                    public void onAdLoaded() {
+                        mInterstitialAd.show();
+                    }
+                });
+                mInterstitialAd.loadAd(adRequestInter);
+                Log.e("Working","fine");
+//                finish();
+            }
+        }, 2000);
+
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
@@ -106,6 +119,41 @@ public class FriendshipStoriesList extends Fragment {
 
                 }if(position==3){
                     Having_Best_Friend homefragment=new Having_Best_Friend();
+                    final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+                    transaction.replace(R.id.frame,homefragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+
+                }if(position==4){
+                    Happiness_And_Sarrow homefragment=new Happiness_And_Sarrow();
+                    final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+                    transaction.replace(R.id.frame,homefragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+
+                }if(position==5){
+                    The_Ship_Of_Friendship homefragment=new The_Ship_Of_Friendship();
+                    final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+                    transaction.replace(R.id.frame,homefragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+
+                }if(position==6){
+                    Four_Friends homefragment=new Four_Friends();
+                    final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+                    transaction.replace(R.id.frame,homefragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+
+                }if(position==7){
+                    The_Blank_Question_Paper homefragment=new The_Blank_Question_Paper();
+                    final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+                    transaction.replace(R.id.frame,homefragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+
+                }if(position==8){
+                    Hundread_Gold_Coins_Birbal homefragment=new Hundread_Gold_Coins_Birbal();
                     final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame,homefragment);
                     transaction.addToBackStack(null);

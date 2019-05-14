@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="The Dilemma of Love and Regret of Lifetime"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dilemmalove" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         She was a simple homely girl from a small town who had many dreams.  He was a simple guy with a successful career.  Fate brought them together, she fell in love and he accepted his feelings for her too.  She looked upon him as her everything.  He understood her more than anyone.  He wanted to provide everything that was good for her.  She wanted to do everything that can make him happy."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         He wanted her to grow out of shadows of in-home life and become a self-dependent.  He wanted her to learn how to face the harsh reality of society and make a career, so if anything happens to him in future, she can survive.   He was constantly guiding her and often even scolded her when she made mistakes.  He was molding her for her own good.  She was getting a success and many guys were showing interest in her.  Oh did I mention she was a beautiful too!  She had a smile that can fill anyone’s, heart."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        As time passed, she became more confident and her career was reaching its peak. But he as always stood by her, always guiding her and continue to push her for more progress.  However, she was no longer liking him giving her advice.  She felt that she is more than capable of deciding what to do.  He too was always working and differences started to grow.  She never understood why he was always pushing her for more and more.  But she started quarreling with him.  It grew.  She left him saying, “I am not the one to listen to you always, I can decide what’s best for me now, I am successful, There are many guys who will be more than happy to accept me as I am, If you do not like it, go to hell.”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         He felt hurt.  He who loved her since she was a simple homely girl, failed to understand why would she think in such a negative manner about him.  He who always wanted her to be self-dependent, who felt proud each time she reached the new height of success, how can she say such things.  He left her saying, "
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="           “Perhaps the ego of your success has grown in your mind that you have failed to feel my feelings for you in your heart.  I loved you when you were a simple girl without a career or a success in your life.  My intention was always to encourage you, not to make you feel anything less.  Perhaps, failure is mine that after all the time we spent together, I couldn’t make you understand what you are for me and what I wished for you.  I wished only best for you, I wished you achieve more success than me.  I wished you do not make the same mistakes which I made.  That was the only reason I always guided you and scolded you.  May you find everything you ever wished for.”"
+                android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         He knew that both are made for each other, no one can make them happy as much as they can make each other. But, he had no words left to say as he was truly heartbroken. She later realized it but, it was too late and had to end up living with the regret of a lifetime."
+            android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="        Moral:  Only those who care for you will try to show you the right path by guiding you or even being harsh occasionally – only because they want the best for you.  Think for a minute of your past and person who was part of your life then but not today, Where would you have been today if it was not for such person to be in your life?  Let go of ego and anger because eventually, it will cost us what could be the most valuable part of our life."
+            android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

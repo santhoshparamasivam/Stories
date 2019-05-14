@@ -38,11 +38,11 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/blamming" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,14 +50,14 @@
                 android:text="      Once a ship got caught in a violent storm. It wrecked and the waves cast it's wrecks on the sands of the shore. Among them was a sailor who lay senseless on the beach"
                 android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+            <!--<ImageView-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginEnd="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:src="@drawable/animal" />-->
 
             <TextView
                 android:layout_width="wrap_content"

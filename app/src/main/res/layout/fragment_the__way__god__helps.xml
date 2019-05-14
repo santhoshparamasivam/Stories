@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Way God Helps"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/thewaygod" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       There was a small village by the river. Everyone lived happily and offered regular prayers at the village temple (Church). Once during the monsoon season, it rained heavily. The river started overflowing and flood entered the village. Everyone started to evacuate their homes and set out to go to the safe place."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         One man ran to the temple (Church). He quickly went to the priest’s room and told him, “The flood water has entered into our homes and it is rising quickly. And water has also started to enter the temple. We must leave the village as in no time it will sink under the water! Everyone has set out to go to the safer place and you must come along”. The priest told the man, “I am not an atheist like you all and I have a full faith in God. I trust the God that he will come to save me. I will not leave the temple, You may go!” So, the man left."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          Soon, the water level started to rise and reached the waist height. The priest climbed on the desk. After a few minutes, a man with the boat came to rescue the priest. He told the priest, “I was told by the villagers that you are still inside the temple, so I have come to rescue you, please climb on the boat”. But the priest again refused to leave giving him the same reason. So the boatman left."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        The water kept rising and reached to the ceiling, so the priest climbed to the top of the temple. He kept praying to the God to save him. Soon the helicopter came, they dropped the rope ladder for the priest and asked him to climb on and get inside the helicopter so they can take him to the safer place. But the priest refused to leave by giving him the same reason again! So the helicopter left to search and help others."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          At last, when the temple nearly submerged under the water, the priest kept his head up and started complaining, “Oh Lord, I worshiped you for all my life and kept my faith in you! Why didn’t you come to save me?!” The God appeared in front of him and with a smile, he said, “Oh mad man, I came to save you three times! I came running to you to ask you to leave for the safest place with other villages, I came with a Boat, I came with a Helicopter! What is my fault if you didn’t recognize me?!”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         The priest realized his mistake and asked for forgiveness. He got his chance to go to the safe place one more time, which he accepted."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        Moral: In life, opportunities come unknowingly without any recolonization. We fail to recognize it and keep complaining that life didn’t give us the opportunity to lead a successful life. Always take every chance you get to make a better life."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

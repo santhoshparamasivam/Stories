@@ -42,7 +42,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+                android:src="@drawable/foxandgoat" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,14 +50,7 @@
                 android:text="   It was a hot summer day. A fox and a goat were very thirsty. Looking around for a place to quench their thirst, they came across a well that had very little water in it"
                 android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+
 
             <TextView
                 android:layout_width="wrap_content"

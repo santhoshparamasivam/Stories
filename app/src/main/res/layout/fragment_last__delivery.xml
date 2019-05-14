@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Last Delivery"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lastdelivery" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         There was a rich couple who was throwing a big new year party at their house.  So they went shopping at the market where everything was of high cost and fixed price.  They wanted to maintain their level of standard so didn’t mind paying for it.  After purchasing all they needed, they called a porter to carry everything and drop it at their home.  The porter who came was of an old age, not very healthy looking, his clothes were torn, looked as if he wasn’t even able to meet his daily needs."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         They asked the porter about the charges for delivering their goods at their home.  The old porter quoted just a $20, a well below the market rate for delivering goods at couple’s home in his cart.  Yet, the couple argued and bargained with the porter and finally settled for $15.  The porter was struggling to make even one time’s meal so he needed anything he can earn."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        The couple was very happy thinking how well they bargained with the poor porter and paid him $15 in advance and left after giving the porter their address for delivery.  They reached their home and hour passed, two hours passed, but the porter still hadn’t delivered their stuff. "
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        The wife started to get angry at her husband, “I always tell you to not to trust such person still, you never listen to me.  Such person who is not even able to earn to feed himself for 1 time in a day, you handed him everything we purchased for our big party.  I am sure instead of delivering at our home, he must have disappeared with everything.  We must immediately go back to the market to inquire and then to the police station to file the complaint against him”."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        They both left towards the market.  On their way near the market, they saw another porter.  They stopped him to inquire about the old porter and noticed that he was carrying their stuff in his cart!  The angry wife asked him, “Where is that old thief?  This is our stuff and he supposed to deliver it.  It seems you poor thieves are stealing our stuff and going to sell it”."
+                android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="        The porter replied, “Madam, Please calm down.  That poor old man was sick since last month.  He wasn’t able to earn enough to even have a single meal of the day.  He was on the way to deliver your stuff, but he who was hungry, sick, couldn’t gather the strength to go any further in this heat of the noon”.  He fell down and while handing me $15, his last words were, “I had taken an advance for this delivery, you take this and please deliver to this address”."
+            android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         “Madam, He was hungry, he was poor, but he was an honest man. I was just on the way to complete old man’s last delivery at your home”, the porter said. Upon hearing this, the husband had tears in his eyes, but the wife felt so ashamed, she had no courage to see up in her husband’s eyes."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         Moral: Honesty has no class. Respect everyone regardless of their financial and social status. It’s always a good deed to give the one who deserves."
+            android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

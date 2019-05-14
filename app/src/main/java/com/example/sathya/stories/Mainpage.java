@@ -1,9 +1,13 @@
 package com.example.sathya.stories;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.View;
@@ -16,27 +20,39 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.sathya.stories.BedtimeStories.AboutUs;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.doubleclick.PublisherAdRequest;
+import com.google.android.gms.ads.doubleclick.PublisherAdView;
+import com.google.android.gms.ads.doubleclick.PublisherInterstitialAd;
+
+import org.json.JSONException;
 
 public class Mainpage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
      AdView mAdView,adView1;
     private InterstitialAd mInterstitialAd;
+//    private PublisherAdView mPublisherAdView;
+    Handler hos = new Handler();
+    private PublisherInterstitialAd mPublisherInterstitialAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainpage);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        mPublisherAdView = findViewById(R.id.publisherAdView);
         setSupportActionBar(toolbar);
         MobileAds.initialize(this, "ca-app-pub-3643602219143275~6670393241");
-
+        mPublisherInterstitialAd = new PublisherInterstitialAd(this);
+//        mPublisherAdView = new PublisherAdView(this);
         mInterstitialAd = new InterstitialAd(this);
-
+//        mPublisherAdView.setAdSizes(AdSize.BANNER);
+//        mPublisherAdView.setAdUnitId("ca-app-pub-3643602219143275/8338698132");
+        mPublisherInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
@@ -47,46 +63,106 @@ public class Mainpage extends AppCompatActivity
         });
         mInterstitialAd.loadAd(adRequestInter);
         mAdView = findViewById(R.id.adView);
-        adView1 = findViewById(R.id.adView1);
-        for(int i=0;i<2000;i++) {
-
-            AdRequest Request = new AdRequest.Builder().build();
-            adView1.loadAd(Request);
-            AdRequest adRequest = new AdRequest.Builder().build();
-            mAdView.loadAd(adRequest);
+//        adView1 = findViewById(R.id.adView1);
+        if (ActivityCompat.checkSelfPermission(Mainpage.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(Mainpage.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(Mainpage.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            return;
         }
 
+        Runnable r = new Runnable() {
+            public void run() {
+                Log.e("Working","Method") ;
+                AdRequest adRequest = new AdRequest.Builder().build();
+                mAdView.loadAd(adRequest);
+//                PublisherAdRequest adRequest1 = new PublisherAdRequest.Builder().build();
+//                mPublisherAdView.loadAd(adRequest1);
+                mPublisherInterstitialAd.loadAd(new PublisherAdRequest.Builder().build());
+                hos.postDelayed(this, 1000);
+            }
+        };
 
-        adView1.setAdListener(new AdListener() {
+        hos.postDelayed(r, 1000);
+//    }
+
+//        new Handler().postDelayed(new Runnable() {
+//
+//            @Override
+//            public void run() {
+////                Intent in = new Intent(SplashScreen.this, Profile.class);
+////                startActivity(in);
+////                AdRequest Request = new AdRequest.Builder().build();
+////                mAdView.loadAd(Request);
+//
+////                finish();
+//            }
+//        }, 2000);
+
+        mPublisherInterstitialAd.loadAd(new PublisherAdRequest.Builder().build());
+        mPublisherInterstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdLoaded() {
-
+                Log.e("mPublisherInterstitial","load");
+                // Code to be executed when an ad finishes loading.
             }
 
             @Override
             public void onAdFailedToLoad(int errorCode) {
-                Log.e("errorcode",errorCode+"");
+                Log.e("mPublisherInterstitial",errorCode+"");
+
+                // Code to be executed when an ad request fails.
             }
 
             @Override
             public void onAdOpened() {
-
+                // Code to be executed when the ad is displayed.
             }
 
             @Override
             public void onAdClicked() {
-
+                // Code to be executed when the user clicks on an ad.
             }
 
             @Override
             public void onAdLeftApplication() {
+                // Code to be executed when the user has left the app.
             }
 
             @Override
             public void onAdClosed() {
-
+                // Code to be executed when the interstitial ad is closed.
             }
         });
+
+//        adView1.setAdListener(new AdListener() {
+//            @Override
+//            public void onAdLoaded() {
+//
+//            }
+//
+//            @Override
+//            public void onAdFailedToLoad(int errorCode) {
+//                Log.e("errorcode",errorCode+"");
+//            }
+//
+//            @Override
+//            public void onAdOpened() {
+//
+//            }
+//
+//            @Override
+//            public void onAdClicked() {
+//
+//            }
+//
+//            @Override
+//            public void onAdLeftApplication() {
+//            }
+//
+//            @Override
+//            public void onAdClosed() {
+//
+//            }
+//        });
         mAdView.setAdListener(new AdListener() {
             @Override
             public void onAdLoaded() {
@@ -188,6 +264,10 @@ public class Mainpage extends AppCompatActivity
 
         } else if (id == R.id.about) {
             Intent S=new Intent(Mainpage.this,AboutUs.class);
+            startActivity(S);
+
+        } else if (id == R.id.wishlist) {
+            Intent S=new Intent(Mainpage.this,WishList.class);
             startActivity(S);
 
         } else if (id == R.id.nav_share) {

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Little Boy’s Meeting with God"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/meetgod" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       There once was a little boy who wanted to meet God. He knew it was a long trip to where God lived, so he packed his suitcase with Twinkies and a six-pack of root beer and started his journey. When he had gone about three blocks, he met an old woman. She was sitting in the park just staring at some pigeons."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       The boy sat down next to her and opened his suitcase. He was about to take a drink from his root beer when he noticed that the old lady looked hungry, so he offered her a Twinkie. She gratefully accepted it and smiled at him. Her smile was so pretty that the boy wanted to see it again, so he offered her a root beer. Once again she smiled at him. The boy was delighted! They sat there all afternoon eating and smiling, but they never said a word."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        As it grew dark, the boy realized how tired he was, and he got up to leave but before he had gone more than a few steps, he turned around, ran back to the old woman and gave her a hug. She gave him her biggest smile ever. When the boy opened the door to his own house a short time later, his mother was surprised by the look of joy on his face. She asked him, “What did you do today that made you so happy?” He replied, “I had lunch with God.” But, before his mother could respond, he added, “You know what? She’s got the most beautiful smile I’ve ever seen!”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Meanwhile, the old woman, also radiant with joy, returned to her home. Her son was stunned by the look of peace on her face and he asked, “Mother, what did you do today that made you so happy?” She replied, “I ate Twinkies in the park with God.” But, before her son responded, she added, “You know, he’s much younger than I expected.”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        Moral: God is everywhere.  We just need to share our happiness and make others smile to feel him"
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="         On the way, the priest was thinking that one coin Shree Krishna gave him, he can’t even buy a lunch for one person. Why would he give so little? He saw a fisherman who was getting a fish out of his net. Fish was struggling. The priest felt pity at fish. He thought that this one coin won’t solve my problem, why not I save that fish. So the priest paid the fisherman and took the fish. He put the fish in his small pot of water which he always carried with him."-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="        The fish was struggling in a small pot of water, ended up throwing out a diamond from the mouth! The priest screamed with a joy, “I got it, I got it”. At that same point, the thief who had robbed the priest’s bag of 100 gold coins, was passing through there. He thought that the priest recognized him and may get him punished. He got nervous and ran to the priest. He apologized to the priest and returned his bag full of 100 gold coins. The priest couldn’t believe what just happened."-->
+                <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="        Arjun saw all this and said, “Oh Lord, Now I understand your play”."-->
+                <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="       Moral: When you have enough to help others, don’t let that chance go. Your good deeds will always be repaid to you."-->
+                <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

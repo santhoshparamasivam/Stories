@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Frog in Hot Water"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/froginhotwater" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Once the frog fell in a vessel of the hot water. The Water was still on a gas stove. The frog still did not try to jump out of the vessel, instead just stayed in it. As the temperature of the water started to rise, the frog managed to adjust its body temperature accordingly. As the water started to reach the boiling point, the frog was no longer able to keep up and manage its body temperature according to the water temperature."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       The frog tried to jump out of the vessel but with water temperature reaching its boiling point, the frog was not able to bear it and couldn’t make it. What was the reason that a frog couldn’t make it? Will you blame the hot water for it?"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        Moral: The frog couldn’t make it due to its own inability to decide when it had to jump out. We all need to adjust according to the situations but there are times when we need to face the situation and take the appropriate action when we have the strength to do so before it’s too late. Walk out before you need to jump."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="         Meanwhile, the old woman, also radiant with joy, returned to her home. Her son was stunned by the look of peace on her face and he asked, “Mother, what did you do today that made you so happy?” She replied, “I ate Twinkies in the park with God.” But, before her son responded, she added, “You know, he’s much younger than I expected.”"-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="        Moral: God is everywhere.  We just need to share our happiness and make others smile to feel him"-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         On the way, the priest was thinking that one coin Shree Krishna gave him, he can’t even buy a lunch for one person. Why would he give so little? He saw a fisherman who was getting a fish out of his net. Fish was struggling. The priest felt pity at fish. He thought that this one coin won’t solve my problem, why not I save that fish. So the priest paid the fisherman and took the fish. He put the fish in his small pot of water which he always carried with him."-->
+            <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        The fish was struggling in a small pot of water, ended up throwing out a diamond from the mouth! The priest screamed with a joy, “I got it, I got it”. At that same point, the thief who had robbed the priest’s bag of 100 gold coins, was passing through there. He thought that the priest recognized him and may get him punished. He got nervous and ran to the priest. He apologized to the priest and returned his bag full of 100 gold coins. The priest couldn’t believe what just happened."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        Arjun saw all this and said, “Oh Lord, Now I understand your play”."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="       Moral: When you have enough to help others, don’t let that chance go. Your good deeds will always be repaid to you."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

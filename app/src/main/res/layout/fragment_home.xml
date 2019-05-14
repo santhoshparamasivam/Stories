@@ -4,9 +4,9 @@
         android:id="@+id/grid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numColumns="3"
-        android:layout_marginBottom="20dp"
+        android:numColumns="2"
+        android:layout_marginBottom="10dp"
         android:nestedScrollingEnabled="true"
-        android:verticalSpacing="0dp"
-        android:horizontalSpacing="0dp">
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp">
 </GridView>

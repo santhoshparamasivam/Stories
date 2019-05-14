@@ -2,6 +2,7 @@ package com.example.sathya.stories.StoryList;
 
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
@@ -71,18 +72,25 @@ public class MoralStoryList extends Fragment {
         lv1.setAdapter(adapter);
         mInterstitialAd = new InterstitialAd(getActivity());
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
-        for(int i=0;i<2000;i++) {
+        new Handler().postDelayed(new Runnable() {
 
-            AdRequest adRequestInter = new AdRequest.Builder().build();
-            mInterstitialAd.setAdListener(new AdListener() {
-                @Override
-                public void onAdLoaded() {
-                    mInterstitialAd.show();
-                }
-            });
-            mInterstitialAd.loadAd(adRequestInter);
-            Log.e("Working","fine");
-        }
+            @Override
+            public void run() {
+//                Intent in = new Intent(SplashScreen.this, Profile.class);
+//                startActivity(in);
+                AdRequest adRequestInter = new AdRequest.Builder().build();
+                mInterstitialAd.setAdListener(new AdListener() {
+                    @Override
+                    public void onAdLoaded() {
+                        mInterstitialAd.show();
+                    }
+                });
+                mInterstitialAd.loadAd(adRequestInter);
+                Log.e("Working","fine");
+//                finish();
+            }
+        }, 2000);
+
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
             @Override

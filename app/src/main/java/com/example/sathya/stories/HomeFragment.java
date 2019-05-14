@@ -17,7 +17,11 @@ import com.example.sathya.stories.StoryList.ConedyStoriesList;
 import com.example.sathya.stories.StoryList.FairyTaleStoriesList;
 import com.example.sathya.stories.StoryList.FriendshipStoriesList;
 import com.example.sathya.stories.StoryList.GeneralStoryList;
+import com.example.sathya.stories.StoryList.InspirationalstoryList;
+import com.example.sathya.stories.StoryList.LifeStoriesList;
+import com.example.sathya.stories.StoryList.LoveStoriesList;
 import com.example.sathya.stories.StoryList.MoralStoryList;
+import com.example.sathya.stories.StoryList.MotivationalStoriesList;
 import com.example.sathya.stories.Utilities.CustomGridViewAdapter;
 import com.example.sathya.stories.Utilities.Item;
 
@@ -42,28 +46,23 @@ public class HomeFragment extends Fragment {
             "Love Stories",
             "Motivational Stories",
             "Inspirational Stories",
-            "Mystery Stories",
-            "Thriller Stories",
-            "Romance Stories"
+            "Life Stories"
 
     } ;
     int[] imageId = {
-            R.drawable.story,
+            R.drawable.bedtime,
+            R.drawable. moralstory,
+            R.drawable.generalstory,
+            R.drawable.comicalstory,
+            R.drawable.fairytalestory,
             R.drawable.animal,
-            R.drawable.story,
-            R.drawable.animal,
-            R.drawable.story,
-            R.drawable.story,
-            R.drawable.story,
-            R.drawable.animal,
-            R.drawable.story,
-            R.drawable.story,
-            R.drawable.animal,
-            R.drawable.story,
-            R.drawable.animal,
-            R.drawable.story,
-            R.drawable.animal,
-            R.drawable.story,
+            R.drawable.funnystory,
+            R.drawable.friendshipstory,
+            R.drawable.lovestory,
+            R.drawable.motivationalstories,
+            R.drawable.inspirationalstories,
+            R.drawable.lifestories,
+
 
 
     };
@@ -133,6 +132,34 @@ public class HomeFragment extends Fragment {
 
     }if(position==7){
         FriendshipStoriesList homefragment=new FriendshipStoriesList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }if(position==8){
+        LoveStoriesList homefragment=new LoveStoriesList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }if(position==9){
+        MotivationalStoriesList homefragment=new MotivationalStoriesList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }if(position==10){
+        InspirationalstoryList homefragment=new InspirationalstoryList();
+        final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,homefragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+    }if(position==11){
+        LifeStoriesList homefragment=new LifeStoriesList();
         final FragmentTransaction transaction=getActivity().getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.frame,homefragment);
         transaction.addToBackStack(null);

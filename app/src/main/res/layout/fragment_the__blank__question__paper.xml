@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Blank Question paper"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/blankquestion" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    One day a professor entered the classroom and asked his students to prepare for a surprise test.  They waited anxiously at their desks for the test to begin.  The professor handed out the question paper with the text facing down as usual.  Once he handed them all out, he asked his students to turn the page and begin.  To everyone’s surprise, there were no questions, just a black dot in the center of the page."
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="      The professor seeing the expression on everyone’s face, told them the following, “I want you to write what you see there.”  The confused students got started on the inexplicable task.  At the end of the class, the professor took all the answer papers and started reading each one of them aloud in front of all the students.  All of them with no exceptions described the black dot, trying to explain its position in the middle of the sheet etc."
+                android:textSize="16dp" />
+            <!--<ImageView-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginEnd="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:src="@drawable/fourfriends" />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="      After all had been read, the classroom was silent.  The professor began to explain, “I am not going to grade on you this, I just wanted to give you something to think about.  No one wrote about the white part of the paper.  Everyone focused on the black dot and the same happens in our lives.  We have a white paper to observe and enjoy, but we always focus on the dark spots.  Our life is a gift given to us by God with love and care.  We always have reasons to celebrate, nature renewing itself every day, our friends around us, the job that provides our livelihood, the miracles we see every day.”"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="    “However, we insist on focusing only on the dark spots, the health issues that bother us, the lack of money, the complicated relationship with a family member, the disappointment with a friends etc.  The dark spots are very small compared to everything we have in our lives, but they are the ones that pollute our minds.  Take your eyes away from the black spots in your life.  Enjoy each one of your blessings, each moment that life gives you.  Be happy and live a life positively!”"
+                android:textSize="16dp" />
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         Moral: As the professor explained, life is a bag of good and bad things, we all have positives and negatives along the way.  But we must always concentrate greater on the positives for a healthy and happy life.  Life goes on no matter what so do not waste your time thinking about the negatives."
+            android:textSize="16dp" />
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        “My blessings are mine alone since I was the one who prayed for them,” the first man answered. “His prayers were all unanswered and so he does not deserve anything.”"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        “You are mistaken!” the voice rebuked him. “He had only one prayer, which I answered. If not for that, you would not have received any of my blessings.”"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="       “Tell me,” the first man asked the voice, “What did he pray for that I should owe him anything?”-->
+
+            <!--“He prayed that all your prayers be answered ”"-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="     Moral: For all we know, our blessings are not the fruits of our prayers alone, but those of another praying for us (Congregational Prayer). Value your friends, don’t leave your loved ones behind."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

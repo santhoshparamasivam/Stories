@@ -42,7 +42,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+                android:src="@drawable/docytoraway" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -54,14 +54,14 @@
                 android:layout_height="wrap_content"
                 android:text=" At home, their mother bandaged her and asked their father to take Annie to a doctor for a tetanus injection."
                 android:textSize="16dp" />
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+            <!--<ImageView-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginEnd="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:src="@drawable/animal" />-->
 
             <TextView
                 android:layout_width="wrap_content"

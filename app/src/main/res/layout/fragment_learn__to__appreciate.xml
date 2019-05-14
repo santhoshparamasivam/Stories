@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Learn to Appreciate"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/learnappreciate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Once upon a time, there was a man who was very helpful, kindhearted, and generous. He was a man who will help someone without asking anything to pay him back. He will help someone because he wants to and he loves to.  One day while walking into a dusty road, this man saw a purse, so he picked it up and noticed that the purse was empty. Suddenly a woman with a policeman shows up and gets him arrested."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       The woman kept on asking where did he hide her money but the man replied, “It was empty when I found it, Mam.” The woman yelled at him, “Please give it back, It’s for my son’s school fees.”  The man noticed that the woman really felt sad, so he handed all his money.  He could say that the woman was a single mother.  The man said, “Take these, sorry for the inconvenience.”  The woman left and a policeman held the man for further questioning."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="       The woman was very happy but when she counted her money, later on, it was doubled, she was shocked.  One day while the woman was going to pay her son’s school fees towards the school, she noticed that some skinny man was walking behind her.  She thought that he may rob her, so she approached a policeman standing nearby.  He was the same policeman, who she took along to inquire about her purse.  The woman told him about the man following her, but suddenly they saw that man collapsing.  They ran at him and saw that he was the same man whom they arrested a few days back for stealing a purse."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         He looked very weak and the woman was confused.  The policeman said to the woman, “He didn’t return your money, he gave you his money that day.  He wasn’t the thief but hearing about you son’s school fees, he felt sad and gave you his money.”  Later, they helped the man stand up, and the man told the woman, “Please go ahead and pay your son’s school fees, I saw you and followed you to be sure that no one steals your son’s school fees.” The woman was speechless."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        Moral: Life gives you strange experiences, sometime it shocks you and sometimes it may surprise you. We end up making wrong judgments or mistakes in our anger, desperation and frustration. However, when you get a second chance, correct your mistakes and return the favor. Be Kind and Generous. Learn to Appreciate what you are given."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         On the way, the priest was thinking that one coin Shree Krishna gave him, he can’t even buy a lunch for one person. Why would he give so little? He saw a fisherman who was getting a fish out of his net. Fish was struggling. The priest felt pity at fish. He thought that this one coin won’t solve my problem, why not I save that fish. So the priest paid the fisherman and took the fish. He put the fish in his small pot of water which he always carried with him."-->
+            <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        The fish was struggling in a small pot of water, ended up throwing out a diamond from the mouth! The priest screamed with a joy, “I got it, I got it”. At that same point, the thief who had robbed the priest’s bag of 100 gold coins, was passing through there. He thought that the priest recognized him and may get him punished. He got nervous and ran to the priest. He apologized to the priest and returned his bag full of 100 gold coins. The priest couldn’t believe what just happened."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        Arjun saw all this and said, “Oh Lord, Now I understand your play”."-->
+            <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="       Moral: When you have enough to help others, don’t let that chance go. Your good deeds will always be repaid to you."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

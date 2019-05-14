@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="A limit of your Kindness"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kindness" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Recently Steve had a car accident. So he put his car in the garage to carry out the repair work. Since he had to go to the job daily, he decided that until the car is ready, he will travel by the metro train. One day, he noticed a homeless guy at the train station at night. He felt pity for him, so he gave him some change from his pocket."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         The homeless guy thanked him for it. Next day again, he noticed the homeless guy at the same place. This time Steve though to get him something to eat, so he went outside the station and brought him a meal. The homeless guy thanked him for his kindness. But Steve got curious and asked him, “How did you get to this point?”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        The homeless guy looked up at him and with a smile, he said, “By Showing Love.” Steve didn’t understand it, so he asked him, “What do you mean by that?” The homeless guy replied that “Throughout my whole life, I made sure that everyone was happy. No matter what was going right or wrong in my life, I always helped everyone.”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Steve asked him, “Do you regret it?” To which the homeless man replied, “No, It just hurts my soul that the very people I gave the shirt off my back to wouldn’t give me a sleeve of that same shirt when I was in need. Son, It is better to build your own house and invite someone in for shelter than to hand them your bricks while you are building yours. Because one day you will turn around and look at the spot where you had planned to build your house. It will be an empty lot. Then you are the one looking for bricks.”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="           Steve understood what the homeless guy meant and thanked him for the good advice."
+                android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         Moral: Helping others is not a bad thing at all. But Sometimes, while we are helping others, we forget our own problems and needs. One must remember that sometimes sharing is better than giving away. You can do a lot more by being in a strong position instead of bringing yourself into a weaker situation."
+            android:textSize="16dp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         Moral:  Life is like a basket of fruits. Either you have to make a choice of eating the fruit you love or be content with something that is healthy!  Choose wisely else you may have to spend your life wondering, what if..  As long as you stay true to yourself and honest, you can’t go wrong with any of these two choices."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

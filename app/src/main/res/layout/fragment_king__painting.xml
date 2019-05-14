@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="A King’s Painting"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/paintingking" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Once upon a time, there was a Kingdom. The king there only had one leg and one eye, but he was very intelligent and kind. Everyone in his kingdom lived a happy and a healthy life because of their king. One day the king was walking through the palace hallway and saw the portraits of his ancestors. He thought that one day his children will walk in the same hallway and remember all the ancestors through these portraits."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         But, the king did not have his portrait painted. Due to his physical disabilities, he wasn’t sure how his painting would turn out. So he invited many famous painters from his and other kingdoms to the court. The king then announced that he wants a beautiful portrait made of himself to be placed in the palace. Any painter who can carry out this should come forward. He will be rewarded based on how the painting turns up."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          All of the painters began to think that the king only has one leg and one eye. How can his picture be made very beautiful? It is not possible and if the picture does not turn out to look beautiful then the king will get angry and punish them. So one by one, all started to make excuses and politely declined to make a painting of the king."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         But suddenly one painter raised his hand and said that I will make a very beautiful portrait of you which you will surely like. The king became happy hearing that and other painters got curious. The king gave him the permission and the painter started drawing the portrait. He then filled the drawing with paints. Finally, after taking a long time, he said that the portrait was ready!"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          All of the courtiers, other painters were curious and nervous thinking, How can the painter make the king’s portrait beautiful because the king is physically disabled? What if the king didn’t like the painting and gets angry? But when the painter presented the portrait, everyone in the court, including the king, left stunned."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         The painter made a portrait in which the king was sitting on the horse, on the one-leg side, holding his bow and aiming the arrow with his one eye closed. The king was very pleased to see that the painter has made a beautiful portrait by cleverly hiding the king’s disabilities. The King gave him a great reward."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Moral: We should always think positive of others and ignore their deficiencies. We should learn to focus on the good things instead of trying to hide weaknesses. If we think and approach positively even in a negative situation, then we will be able to solve our problems more efficiently."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

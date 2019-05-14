@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Looking at Mirror"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mirror" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      One day all the employees reached the office and they saw a big advice on the door on which it was written: “Yesterday the person who has been hindering your growth in this company passed away. We invite you to join the funeral in the room that has been prepared in the gym”.  In the beginning, they all got sad for the death of one of their colleagues, but after a while, they started getting curious to know who was that man who hindered the growth of his colleagues and the company itself."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        The excitement in the gym was such that security agents were ordered to control the crowd within the room. The more people reached the coffin, the more the excitement heated up. Everyone thought: “Who is this guy who was hindering my progress? Well, at least he died!”  One by one the thrilled employees got closer to the coffin, and when they looked inside they suddenly became speechless.  They stood nearby the coffin, shocked and in silence, as if someone had touched the deepest part of their soul. There was a mirror inside the coffin: everyone who looked inside it could see himself."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          There was also a sign next to the mirror that said: “There is only one person who is capable of setting limits to your growth: it is YOU.” You are the only person who can revolutionize your life. You are the only person who can influence your happiness, your realization, and your success. You are the only person who can help yourself.  Your life does not change when your boss changes, when your friends change, when your partner changes when your company changes. Your life changes when YOU change, when you go beyond your limiting beliefs when you realize that you are the only one responsible for your life. “The most important relationship you can have is the one you have with yourself”."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="       Moral: The world is like a mirror: it gives back to anyone the reflection of the thoughts in which one has strongly believed. The world and your reality are like mirrors lying in a coffin, which show to any individual the death of his divine capability to imagine and create his happiness and his success. It’s the way you face Life that makes the difference."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="          Moral:  Don’t Judge anything too quickly or reach a conclusion.  Always spare a time to understand things better."-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         Moral: Often we misunderstand the signs. God has given everyone a strength and ability to do their part. Always learn to see the things in a positive way and see yourself in a strong position to help the ones who need. Don’t go for the easy choice. Make a right choice."-->
+            <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         Moral: We should always think positive of others and ignore their deficiencies. We should learn to focus on the good things instead of trying to hide weaknesses. If we think and approach positively even in a negative situation, then we will be able to solve our problems more efficiently."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

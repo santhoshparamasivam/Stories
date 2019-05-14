@@ -8,8 +8,6 @@
     tools:context=".Mainpage"
     tools:showIn="@layout/app_bar_mainpage"
     android:orientation="vertical">
-
-
     <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"
@@ -20,12 +18,31 @@
         ads:adSize="BANNER"
         ads:adUnitId="ca-app-pub-3643602219143275/8338698132">
     </com.google.android.gms.ads.AdView>
-<FrameLayout
+    <!--<com.google.android.gms.ads.doubleclick.PublisherAdView-->
+        <!--xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/publisherAdView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="ca-app-pub-3643602219143275/8338698132">-->
+    <!--</com.google.android.gms.ads.doubleclick.PublisherAdView>-->
+  <FrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/frame">
-
-
-</FrameLayout>
-
+  </FrameLayout>
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/adView1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="ca-app-pub-3643602219143275/8338698132">-->
+    <!--</com.google.android.gms.ads.AdView>-->
 </LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Ship of Friendship"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/desert" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    A voyaging ship was wrecked during a storm at sea and only two of the men on it were able to swim to a small, desert like island.  The two survivors who have been good friends, not knowing what else to do, agreed that they had no other recourse but to pray to God. However, to find out whose prayer was more powerful, they agreed to divide the territory between them and stay on opposite sides of the island"
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="      The first thing they prayed for was food. The next morning, the first man saw a fruit-bearing tree on his side of the land, and he was able to eat its fruit. The other man’s parcel of land remained barren.  After a week, the first man was lonely and he decided to pray for a wife. The next day, another ship was wrecked, and the only survivor was a woman who swam to his side of the land. On the other side of the island, there was nothing."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="      Soon the first man prayed for a house, clothes, more food. The next day, like magic, all of these were given to him. However, the second man still had nothing.  Finally, the first man prayed for a ship, so that he and his wife could leave the island. In the morning, he found a ship docked at his side of the island. The first man boarded the ship with his wife and decided to leave the second man on the island."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="      He considered the other man unworthy to receive God’s blessings since none of his prayers had been answered"
+                android:textSize="16dp" />
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         As the ship was about to leave, the first man heard a voice from heaven booming, “Why are you leaving your companion on the island?”"
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="        “My blessings are mine alone since I was the one who prayed for them,” the first man answered. “His prayers were all unanswered and so he does not deserve anything.”"
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="        “You are mistaken!” the voice rebuked him. “He had only one prayer, which I answered. If not for that, you would not have received any of my blessings.”"
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="       “Tell me,” the first man asked the voice, “What did he pray for that I should owe him anything?”
+
+    “He prayed that all your prayers be answered ”"
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="     Moral: For all we know, our blessings are not the fruits of our prayers alone, but those of another praying for us (Congregational Prayer). Value your friends, don’t leave your loved ones behind."
+            android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

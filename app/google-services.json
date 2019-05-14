@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "321523933331",
+    "firebase_url": "https://stories-50d7d.firebaseio.com",
+    "project_id": "stories-50d7d",
+    "storage_bucket": "stories-50d7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321523933331:android:44f9b836f639da07",
+        "android_client_info": {
+          "package_name": "com.example.sathya.stories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321523933331-8jgla5mu5edulnlrgb0grt99egbm98p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVE_FIMLKFVtYjwrYiwJZ7ZSeZ6ev6o0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321523933331-8jgla5mu5edulnlrgb0grt99egbm98p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

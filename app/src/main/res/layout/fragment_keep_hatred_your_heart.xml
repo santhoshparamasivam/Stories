@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="How long can you keep hatred in your heart?"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/hatredinheart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          A kindergarten teacher had decided to let her class play a game. The teacher told each child in the class to bring along a plastic bag containing a few potatoes. Each potato will be given a name of a person that the child hates. So the number of potatoes that a child will put in his/her plastic bag will depend on the number of people he/she hates."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         So when the day came, every child brought some potatoes with the name of the people he/she hated. Some had 2 potatoes, some 3 while some up to 5 potatoes. The teacher then told the children to carry the potatoes in the plastic bag with them wherever they go for 1 week. Days after days passed, and the children started to complain due to the unpleasant smell let out by the rotten potatoes. Besides, those having 5 potatoes also had to carry heavier bags. After 1 week, the children were relieved because the game had finally ended."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        The teacher asked: “How did you feel while carrying the potatoes with you for 1 week?” The children let out their frustrations and started complaining of the trouble that they had to go through having to carry the heavy and smelly potatoes wherever they go."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Then the teacher told them the hidden meaning behind the game. The teacher said: “This is exactly the situation when you carry your hatred for somebody inside your heart. The stench of hatred will contaminate your heart and you will carry it with you wherever you go. If you cannot tolerate the smell of rotten potatoes for just 1 week, can you imagine what is it like to have the stench of hatred in your heart for your lifetime?”"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="           Moral: Throw away any hatred for anyone from your heart so that you will not carry burden for a lifetime. Forgiving others is the best attitude to take. Negativity about someone will keep peace of your mind away from you. Remember the good things about him/her, and let go of the hatred."
+                android:textSize="16dp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         The student stood confused.  The teacher asked, “What is bothering you now?”  The student replied, “I am wondering which would have been better, marrying a person you love or loving the person you marry”.  The teacher replied, “It’s a very easy answer, only if you are willing to admit it to yourself”."-->
+            <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         Moral:  Life is like a basket of fruits. Either you have to make a choice of eating the fruit you love or be content with something that is healthy!  Choose wisely else you may have to spend your life wondering, what if..  As long as you stay true to yourself and honest, you can’t go wrong with any of these two choices."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

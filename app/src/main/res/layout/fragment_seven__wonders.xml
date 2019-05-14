@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Seven Wonders"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sevenwonders" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Anna was a 9-year-old girl from the small village.  She finished attending elementary school till 4th grade at her village.  For the 5th grade onwards, she will have to get an admission in a school at a city nearby.  She got very happy knowing that she was accepted in a very reputed school in a city.  Today was the first day of her school and she was waiting for her school bus.  Once the bus came, she got in it quickly.  She was very excited."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        Once the bus reached to her school, all students started going to their classes.  Anna also made it to her classroom after asking fellow students for direction.  Upon seeing her simple clothing and knowing she is from a small village, other students started making fun of her.  The teacher soon arrived and she asked everyone to keep quiet.  She introduced Anna to the class and told that she will be studying with them only from today."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Then the teacher told the students to be ready for the surprise test now!  She told everyone to write down the 7 wonders of the world.  Everyone started writing the answer quickly.   Anna started to write the answer slowly."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         When everyone except Anna had submitted their answer paper, the teacher came and asked Anna, “What happened Dear?  Don’t worry, Just write what you know as other students have learned about it just a couple of days back”."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        Anna replied, “I was thinking that there are so many things, which 7 I can pick to write!”   And, then she handed her answer paper to the teacher.  The teacher started reading everyone’s answers and the majority had answered them correctly such as The Great Wall of China, Colosseum, Stonehedge,  Great Pyramid of Giza, Leaning Tower of Pisa, Tajmahal, Hanging Gardens of Babylon etc."
+                android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         The teacher was happy as students had remembered what she had taught them.  At last the teacher picked up Anna’s answer paper and started reading."
+            android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="        “The 7 Wonders are – To be able to See, To be able to Hear, To be able to Feel, To Laugh, To Think, To be Kind, To Love!”"
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="        The teacher stood stunned and the whole class was speechless.  Today, a girl from the small village reminded them about the precious gifts that god has given us, which are truly a wonder."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="       Moral:  Value what you have, use what you have, trust what you have.  You don’t always have to look away to find an inspiration.  God has given you all the strength to reach your goals."
+            android:textSize="16dp" />
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="        Moral: Don’t let anyone steal your dreams. Follow your heart, no matter what.   No Dream is too big or too small when one works hard to live it.  One should always try making dreams come true no matter what."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

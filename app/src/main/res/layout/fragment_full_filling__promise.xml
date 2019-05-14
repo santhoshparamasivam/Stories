@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Fulfilling a Promise"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/fullfilling" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Ever since the beginning The girl’s family member disagree her relationship with the boy. Saying that because of family background, if she insist of being together with the boy, she’ll suffer for her whole lifetime."
+                android:textSize="16sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      Because of the pressure applied by family members, she frequently quarrel with him. The girl does love the boy, she used to ask him, “How much do you love me?” Because the boy is not good with words, he used to make her angry. With additional comment from her parents, her mood get even worse. The boy, has become her “anger releasing target”. And the boy, just silently allowed her to continuously release her anger on him."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="     Later, the boy graduated from University. He plan to further study overseas but before he left. He proposed to the girl… ” I, don’t know how to say nice words but I do know that, I love you. If you agree, I am willing to take care of you, the whole life. About your family members, I will work hard to convince them and agree on us.”"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="     “Marry me, will you?”, the girl agreed.
+
+And her parents, looking at the effort shown by the boy, agreed with them. Finally, before the boy go oversea, they are engaged. The girl stay back in the hometown, step into the working society where as the boy continuing his study oversea. They maintained their relationship through telephone and letters. Although time is difficult to get through with, but both of them never give up."
+                android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         One day, the girl left home for work as usual on her way to the bus stop, a car lose control and knock her down. As she awake from unconsciousness, she saw her parents and realize how seriously she got hurt and how fortunate of her, not to get killed."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         Looking at her parents, with their faced got all wet by their tears, she tried to comfort them. But then, she found out that She can’t even spell out a word, she tried her best to make some voice but all she managed, was to breath without any voice. She’s mute. According to the doctor, the injury affected her brain, and that cause her to be mute for the rest of her life. Listening to her parents persuade, but can’t even reply with a single word, the girl collapsed. Throughout the days, others than crying silently, still it is crying."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         Later, the girl discharged from hospital. Returning to her home, everything is still like before. Except that the phone ring, has turned into the worst nightmare of hers. Ring after ring, continuously stimulate her, stimulating her pain But she can’t tell the boy. She don’t want to be a burden to him, and wrote him a letter telling him that she no longer want to wait, the relationship between them ended, and even returned him the engagement ring. Facing the letters and telephone from the boy, all she can do, is to allow tears falling from her eyes."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         Her father decided to move, after seeing the pain she is suffering. Hoping that she could forget everything and be happier into a new environment, the girl started to learn, slowly picking up sign language and start over again. Also telling herself to forget the boy."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         One day, her best friend tell her that the boy’s back. He’s searching all around for her, she asked her best friend not to tell him about her and asked her to tell him to forget her. After that for more than a year there was no news of boy. One day her best friend tells her, that the boy is getting married soon, and passed the Wedding Card to her. She open the card sadly, but she found her name on the card."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         The moment she want to ask her best friend, the boy appear in front of her. With an unfamiliar sign language, he told her ”I spent more than a year’s time, to force myself to learn sign language, in order to tell you, I have not forgot our promise, give me an opportunity, let me be your voice. I love you.”"
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         Looking at the slow sign language by the boy, and the engagement ring she gave back to him, She finally smiled."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         Moral: Do not be a coward and run away whenever there is a problem, remember that every problem has a solution, never ever break someone’s heart, you may not know when it will happen to you."
+            android:textSize="16dp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="           The student went to the corn field, this time he was careful to not to repeat the previous mistake.  When he reached to the middle of the field, he picked one medium corn that he felt satisfied with and went back to the teacher.  He described how he made a choice.  The teacher told him, “This time you didn’t came empty handed.  You looked for one that is just nice, and you had put your faith that this is the best one you can get. This is how one makes a choice for marriage.”"-->
+            <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         The student stood confused.  The teacher asked, “What is bothering you now?”  The student replied, “I am wondering which would have been better, marrying a person you love or loving the person you marry”.  The teacher replied, “It’s a very easy answer, only if you are willing to admit it to yourself”."-->
+            <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="         Moral:  Life is like a basket of fruits. Either you have to make a choice of eating the fruit you love or be content with something that is healthy!  Choose wisely else you may have to spend your life wondering, what if..  As long as you stay true to yourself and honest, you can’t go wrong with any of these two choices."-->
+            <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

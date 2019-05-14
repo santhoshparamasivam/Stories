@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The White Elephant"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/whiteelephant" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Once upon a time, there lived a herd of eighty thousand elephants at the bottom of the majestic Himalayas. Their leader was a magnificent and rare white elephant who was an extremely kind-hearten soul. He greatly loved his mother who had grown blind and feeble and could not look out for herself."
+                android:textSize="16dp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/animal" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Each day this white elephant would go deep into the forest in search of food. He would look for the best of wild fruit to send to his mother. But alas, his mother never received any. This was because his messengers would always eat them up themselves. Each night, when he returned home he would be surprised to hear that his mother had been starving all day. He was absolutely disgusted with his herd."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="       Then one day, he decided to leave them all behind and disappeared in the middle of the night along with his dear mother. He took her to Mount Candorana to live in a cave beside a beautiful lake that was covered by gorgeous pink lotuses."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         It so happened that one day, when the white elephant was feeding he heard loud cries. A forester from Benaras had lost his way in the forest and was absolutely terrified. He had come to the area to visit relatives and could not find his way out"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="       On seeing this big white elephant he was even more terrified and ran as fast as he could. The elephant followed him and told him not to be afraid, as all he wanted to do was to help him. He asked the forester why he was crying so bitterly. The forester replied that he was crying because he had been roaming the forest for the past seven days and could not find his way out."
+                android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="         The elephant told him not to worry as he knew every inch of this forest and could take him to safety. He then lifted him on to his back and carried him to the edge of the forest from where the forester went on his merry way back to Benaras."
+            android:textSize="16dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="        On reaching the city, he heard that King Brahmadutta’s personal elephant had just died and the King was looking for a new elephant. His heralds were roaming the city, announcing that any man who had seen or heard of an elephant fit for a King should come forward with the information."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="        The forester was very excited and immediately went up to the King and told him about the white elephant that he had seen on Mount Candorana. He told him that he had marked the way and would require the help of the elephant trainers in order to catch this fantastic elephant."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="       The King was quite pleased with the information and immediately dispatched a number of soldiers and elephant trainers along with the forester. After travelling for many days, the group reached the lake besides which the elephants resided. They slowly moved down to the edge of the lake and hid behind the bushes. The white elephant was collecting lotus shoots for his mother’s meal and could sense the presence of humans. When he looked up, he spotted the forester and realized that it was he who had led the King’s men to him. He was very upset at the ingratitude but decided that if he put up a struggle many of the men would be killed. "
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="       And he was just too kind to hurt anyone. So he decided to go along with them to Benaras and then request the benevolent King to be set free. "
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="       That night when the white elephant did not return home, his mother was very worried. She had heard all the commotion outside and had guessed that the King’s men had taken away her son. She was scared that the King would ride him in to battle and her son would definitely be killed. She was also worried that there would be no one to look after her or even feed her, as she could not see. She just lay down and cried bitterly."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="       Meanwhile her son was led in to the beautiful city of Benaras where he was given a grand reception. The whole city was decorated and his own stable was gaily painted and covered with garlands of fragrant flowers. The trainers laid out a feast for their new state elephant who refused to touch a morsel. He did not respond to any kind of stimuli, be it the fragrant flowers or the beautiful and comfortable stable. He just sat there looking completely despondent."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="      The worried trainers went straight to report the situation to their King, as they were scared that the elephant would just waste away without any food or water. The King was extremely concerned when he heard what they had to say and went to the stable himself. He offered the elephant food from the royal table and asked him why he grieved in this manner. He thought that the elephant should be proud and honored that he was chosen as the state elephant and would get the opportunity to serve his King."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="      But the white elephant replied that he would not eat a thing until he met his mother. So the King asked him where his mother was. The elephant replied that she was back home on Mount Candorana and must be worried and hungry as she was blind and had no one to feed her and take care of her. He was afraid that she would die."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="      The compassionate King was touched by the elephant’s story and asked him to return to his blind, old mother and take care of her as he had been doing all along. He set him free in love and kindness. The happy elephant went running home as fast as he could. And he was relieved to find that his mother was still alive. He filled his trunk with water and poured it over his sick mother who thought that it was raining. Then she cried out as she thought that some evil spirit had come to harm her and wished and prayed that her son was there to save her."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="      The white elephant gently bent over his blind mother and stroked her lovingly. She immediately recognized his touch and was overjoyed. Her son lifted her up and told her that the kind and compassionate King of Benaras had set him free and he was here to love and look after his mother forever."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="     His mother was absolutely thrilled and blessed the kind King with peace, prosperity and joy till the end of his days. She was so thankful to him for sending her son back home. The white elephant was able to take good care of his mother till the day she died. And when he died himself, the King erected a statue of him by the side of the lake and held an annual elephant festival there in memory of such a caring and noble soul."
+            android:textSize="16dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="     Moral: Always give affection and care to our dear ones. Always respect other’s feelings."
+            android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="The End"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

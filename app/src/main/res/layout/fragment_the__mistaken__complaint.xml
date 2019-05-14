@@ -42,7 +42,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+                android:src="@drawable/mistakencomplaint" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,14 +50,14 @@
                 android:text="        Once a shepherd had a large flock of sheep and a strong watch-dog to guard them. When the flock used to graze in the pasture, the dog guarded it with care."
                 android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/animal" />
+            <!--<ImageView-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginEnd="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:src="@drawable/animal" />-->
 
             <TextView
                 android:layout_width="wrap_content"

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Hundred Gold Coins and Birbal"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/akbarbirbalcoins" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    The wisdom of Birbal was unparalleled during the reign of Emperor Akbar. But Akbar’s brother in law was extremely jealous of him. He asked the Emperor to dispense with Birbal’s services and appoint him in his place. He gave ample assurance that he would prove to be more efficient and capable than Birbal. Before Akbar could take a decision on this matter, this news reached Birbal."
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="      Birbal resigned and left. Akbar’s brother in law was made the minister in place of Birbal. Akbar decided to test the new minister. He gave three hundred gold coins to him and said, “Spend these gold coins such that, I get a hundred gold coins here in this life; a hundred gold coins in the other world and another hundred gold coins neither here nor there.”"
+                android:textSize="16dp" />
+            <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/fourfriends" />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="     The minister found the entire situation to be a maze of confusion and hopelessness. He spent sleepless nights worrying how he would get himself out of this mess. Thinking in circles was making him go crazy. Eventually, on the advice of his wife, he sought Birbals help. Birbal said, “Just give me the gold coins. I shall handle the rest.”"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="    Birbal walked the streets of the city holding the bag of gold coins in his hand. He noticed a rich merchant celebrating his son’s wedding. Birbal gave a hundred gold coins to him and bowed courteously saying, “Emperor Akbar sends you his good wishes and blessings for the wedding of your son. Please accept the gift he has sent.” The merchant felt honored that the king had sent a special messenger with such a precious gift. He honored Birbal and gave him a large number of expensive gifts and a bag of gold coins as a return gift for the king."
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="         Next, Birbal went to the area of the city where the poor people lived. There he bought food and clothing in exchange for a hundred gold coins and distributed them in the name of the Emperor."
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        When he came back to town he organized a concert of music and dance. He spent a hundred gold coins on it."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        The next day Birbal entered Akbar’s darbar and announced that he had done all that the king had asked his brother-in-law to do. The Emperor wanted to know how he had done it. Birbal repeated the sequences of all the events and then said, “The money I gave to the merchant for the wedding of his son – you have got back while on this earth. The money I spent on buying food and clothing for the poor – you will get it in the other world. The money I spent on the musical concert – you will get neither here nor there.” Akbar’s brother in law understood his mistake and resigned. Birbal got his place back."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="       Moral: The money you spend on friends is returned or reciprocated in some form or the other. The money spent on charity gets converted into blessings from God which will be your eternal property. The money spent on pleasures is just frittered away. So when you spend your money, think a little, if not a lot."
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

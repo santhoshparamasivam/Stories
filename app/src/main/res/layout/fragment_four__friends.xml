@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="The Four Friends"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lionfriend" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Four friends live in a village which has been struck by famine. Three of them are extremely clever and learned and consider their friend Shivanand a lazy but practical fool."
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="      The four decide to go a place called Manasa, which is considered an asylum for scholars. On their way, they have to pass through a forest. There they come across bones of a lion. Satyanand decides to show his knowledge by recreating the lion’s skeleton. The other friend reconstructs the lion’s muscles and structure. Vidyanand then wants to show his superior powers by breathing life into the lion."
+                android:textSize="16dp" />
+            <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/fourfriends" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="      Shivanand tries to stop them and warns them of the consequences of their plans. But they do not stop. Shivanand climbs a tree before Vidyanand foolishly proceeds with his plans. The lion comes to life and devours the three learned fools."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="     Shivanand’s practical nature saves him.
+
+Moral: It is better to be practical than learned."
+                android:textSize="16dp" />
+
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="         As the ship was about to leave, the first man heard a voice from heaven booming, “Why are you leaving your companion on the island?”"-->
+                <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="        “My blessings are mine alone since I was the one who prayed for them,” the first man answered. “His prayers were all unanswered and so he does not deserve anything.”"-->
+                <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="        “You are mistaken!” the voice rebuked him. “He had only one prayer, which I answered. If not for that, you would not have received any of my blessings.”"-->
+                <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="       “Tell me,” the first man asked the voice, “What did he pray for that I should owe him anything?”-->
+
+    <!--“He prayed that all your prayers be answered ”"-->
+                <!--android:textSize="16dp" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="     Moral: For all we know, our blessings are not the fruits of our prayers alone, but those of another praying for us (Congregational Prayer). Value your friends, don’t leave your loved ones behind."-->
+                <!--android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  The End"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
