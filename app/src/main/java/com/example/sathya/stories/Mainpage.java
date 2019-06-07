@@ -29,6 +29,7 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.doubleclick.PublisherAdRequest;
 import com.google.android.gms.ads.doubleclick.PublisherAdView;
 import com.google.android.gms.ads.doubleclick.PublisherInterstitialAd;
+import com.google.android.gms.ads.reward.RewardedVideoAd;
 
 import org.json.JSONException;
 
@@ -38,6 +39,7 @@ public class Mainpage extends AppCompatActivity
     private InterstitialAd mInterstitialAd;
 //    private PublisherAdView mPublisherAdView;
     Handler hos = new Handler();
+    private RewardedVideoAd mRewardedVideoAd;
     private PublisherInterstitialAd mPublisherInterstitialAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,10 +66,7 @@ public class Mainpage extends AppCompatActivity
         mInterstitialAd.loadAd(adRequestInter);
         mAdView = findViewById(R.id.adView);
 //        adView1 = findViewById(R.id.adView1);
-        if (ActivityCompat.checkSelfPermission(Mainpage.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(Mainpage.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(Mainpage.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
-            return;
-        }
+
 
         Runnable r = new Runnable() {
             public void run() {
@@ -198,6 +197,7 @@ public class Mainpage extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Methods();
                 Snackbar.make(view, "Contact US : Sandhoshparamasivam@gmail.com", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
@@ -216,6 +216,18 @@ public class Mainpage extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    private void Methods() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+//                PublisherAdRequest adRequest1 = new PublisherAdRequest.Builder().build();
+//                mPublisherAdView.loadAd(adRequest1);
+        mPublisherInterstitialAd.loadAd(new PublisherAdRequest.Builder().build());
+        Log.e("Methids","REwrdvideo");
+        mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this);
+        mRewardedVideoAd.loadAd("ca-app-pub-3643602219143275/7675376781",
+                new AdRequest.Builder().build());
     }
 
     private void Loadfragment() {
@@ -259,10 +271,18 @@ public class Mainpage extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.home) {
+
+            mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this);
+            mRewardedVideoAd.loadAd("ca-app-pub-3643602219143275/7675376781",
+                    new AdRequest.Builder().build());
             Intent S=new Intent(Mainpage.this,Mainpage.class);
             startActivity(S);
 
         } else if (id == R.id.about) {
+
+            mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this);
+            mRewardedVideoAd.loadAd("ca-app-pub-3643602219143275/7675376781",
+                    new AdRequest.Builder().build());
             Intent S=new Intent(Mainpage.this,AboutUs.class);
             startActivity(S);
 

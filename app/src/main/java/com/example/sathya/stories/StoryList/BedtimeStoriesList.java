@@ -27,6 +27,7 @@ import com.example.sathya.stories.BedtimeStories.Wind_and_Sun;
 import com.example.sathya.stories.R;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
 
@@ -47,18 +48,54 @@ public class BedtimeStoriesList extends Fragment {
             "BEGINNING SHOWS THE END",
             "THE MISTAKEN COMPLAINT",
             "TOM, THE WONDER BOY"};
-
+    AdView mAdView,adView1;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_bedtime_stories_list, container, false);
         lv1=(ListView)v.findViewById(R.id.lv1);
+
         getActivity().setTitle("Bedtime Stories");
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, listItem);
         lv1.setAdapter(adapter);
+        mAdView = v.findViewById(R.id.adView);
+        adView1 = v.findViewById(R.id.adView1);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        AdRequest adRequest1 = new AdRequest.Builder().build();
+        adView1.loadAd(adRequest1);
+        mAdView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
 
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                Log.e("errorcode",errorCode+"");
+            }
+
+            @Override
+            public void onAdOpened() {
+
+            }
+
+            @Override
+            public void onAdClicked() {
+
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+            }
+
+            @Override
+            public void onAdClosed() {
+
+            }
+        });
         mInterstitialAd = new InterstitialAd(getActivity());
         mInterstitialAd.setAdUnitId("ca-app-pub-3643602219143275/2250844071");
         new Handler().postDelayed(new Runnable() {
@@ -67,6 +104,10 @@ public class BedtimeStoriesList extends Fragment {
             public void run() {
 //                Intent in = new Intent(SplashScreen.this, Profile.class);
 //                startActivity(in);
+                AdRequest adRequest = new AdRequest.Builder().build();
+                mAdView.loadAd(adRequest);
+                AdRequest adRequest1 = new AdRequest.Builder().build();
+                adView1.loadAd(adRequest1);
                 AdRequest adRequestInter = new AdRequest.Builder().build();
                 mInterstitialAd.setAdListener(new AdListener() {
                     @Override
